@@ -1,0 +1,27 @@
+.template.novas-parcerias{
+	background: transparent url('../images/bg-novas-parcerias.png') no-repeat 0 0;
+	height: 980px;
+    width: 660px;
+    position: relative;
+    padding-bottom: 0;
+}
+.template.novas-parcerias > div{
+	background-color: transparent;
+	position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    top: 250px;
+}
+.template.novas-parcerias > div .title{
+	color: #476bb5 !important;
+	font-size: 30px !important;
+	margin: 0;
+	font-weight: 900;
+}
+.template.novas-parcerias > div .folder img{
+	max-height: 520px;
+	display: none;
+	max-width: 530px;
+}

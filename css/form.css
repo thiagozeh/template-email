@@ -1,0 +1,49 @@
+.form{
+	float: left;
+	margin-right: 10%;
+}
+.form li{
+	margin-bottom: 20px;
+}
+.form label{
+	display: block;
+	margin-bottom: 5px;
+	color: #333;
+	font-size: 13px;
+}
+.form input[type="text"], 
+.form select, 
+.form textarea{
+	border: 1px solid #CCC;
+	padding: 10px;
+	width: 250px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-size: 13px;
+}
+.form input[type="checkbox"]{
+	margin-right: 10px;
+	border-radius: 4px;
+	font-size: 13px;
+}
+.form textarea{
+	height: 150px;
+	resize: none;
+	font-size: 13px;
+}
+.form input[type="button"]{
+	background-color: #4ab3f9;
+	color: #FAFAFA;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	width: 250px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-weight: bold;
+	transition: all .2s ease-out;
+	font-size: 13px;
+}
+.form input[type="button"]:hover{
+	background-color: #2372ea;
+}

@@ -1,0 +1,161 @@
+.template.newsletter{
+	padding: 0;
+	width: 600px;
+	font-family: 'Lato',sans-serif !important;
+}
+.template.newsletter > div{
+	padding: 0;
+}
+.template.newsletter > div .image{
+	min-height: 30px;
+    display: block;
+}
+.template.newsletter > div .image img{
+	display: none;
+}
+
+#templateContainer{width:600px;}
+#bodyCell{
+	 border-top:4px solid rgb(195, 227, 85);
+}
+#templateContainer{
+	 border:0px solid #BBBBBB;
+}
+.template.newsletter h1{
+	display: block;
+	font-size: 2em;
+	font-style: normal;
+	line-height: 100%;
+	letter-spacing: normal;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px !important;
+	margin-left: 0;
+	text-align: left !important;
+	font-weight: 400 !important;
+    color: #FFF !important;
+    font-family: 'Lato',sans-serif !important;
+}
+.template.newsletter h2{
+	color:#359e80;
+	display:block;
+	font-size:1.2em;
+	font-style:normal;
+	font-weight:bold;
+	line-height:100%;
+	letter-spacing:normal;
+	margin-top:20px;
+	margin-bottom:10px;
+	text-align:left;
+	text-transform: uppercase;
+}
+.template.newsletter p{
+	font-family: 'Lato',sans-serif !important;
+}
+#templatePreheader{
+	background-color:rgb(81, 81, 81);
+	font-family: 'Lato',sans-serif !important;
+}
+.preheaderContent{
+	color: #fff;
+    
+    font-size: 12px;
+    text-align: right;
+    height: 53px;
+    position:relative;
+}
+#imagelogo{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 10%;
+	top: 20%;
+	background-color: #fff;
+	border-radius: 50%;
+	overflow:hidden;
+	text-align: center;
+	box-shadow: 1px 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+#imagelogo img{
+	width: 70%;
+	position: relative;
+	top: 15px;
+}
+#templateHeader{
+	 background-color:rgb(9, 163, 176);
+	 border-top:1px solid #FFFFFF;
+	 border-bottom:1px solid #CCCCCC;
+}
+#templateHeader img{
+	max-width: 600px;
+}
+.headerContent{
+	color: #fff;
+	font-size: 16px;
+	line-height: 141%;
+	padding: 20px;
+	text-align: left;
+	vertical-align: middle;
+	font-weight: 300;
+}
+.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+	color: #c3e355;
+	font-weight: 800;
+	text-decoration: none;
+}
+.headerContent h1{
+	color: #fff;
+}
+#headerImage{
+	height:auto;
+	max-width:600px;
+	margin-top: -1px;
+}
+/* ========== Body Styles ========== */
+#templateBody{
+	 background-color:#F4F4F4;
+	 border-top:1px solid #FFFFFF;
+	 border-bottom:1px solid #CCCCCC;
+}
+.bodyContent{
+	color:#505050;
+	font-size:16px;
+	line-height:150%;
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	text-align:left;
+}
+.bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
+	color: #09a3b0;
+	font-weight: 800;
+	text-decoration: underline;
+}
+.bodyContent img{
+	display:inline;
+	height:auto;
+	max-width:560px;
+}
+/* ========== Footer Styles ========== */
+#templateFooter{
+	background: url('../images/footer-newsletter.png') no-repeat 0 0;
+    height: 93px;
+	border-top:1px solid #FFFFFF;
+}
+.footerContent{
+	 color:#808080;
+	 font-size:10px;
+	 line-height:150%;
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	 text-align:left;
+}
+.footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
+	 color:#606060;
+	 font-weight:normal;
+	 text-decoration:underline;
+	 font-family: 'Lato',sans-serif !important;
+}

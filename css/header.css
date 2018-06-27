@@ -1,0 +1,53 @@
+header{
+	background: #DDD;
+	padding: 0 30px;
+}
+header:after{
+	content:"";
+	clear: both;
+	display: block;
+}
+header > ul > li{
+	position: relative;
+	padding: 15px;
+	float: left;
+	background-color: #ccc;
+}
+header > ul > li:hover{
+	background-color: #245779;
+}
+header > ul > li:hover h2{
+	color: #FFF;
+}
+header ul li h2{
+	font-size: 16px;
+	color: #555;
+}
+header ul li ul{
+	height: 0;
+	overflow: hidden;
+	position: absolute;
+	padding-top: 15px;
+	left: 0;
+	transition: all .2s ease-out;
+}
+header ul li:hover ul,
+header ul li ul:hover{
+	height: 250px;
+}
+header ul li ul li{
+	border-bottom: 1px solid #ccc;
+	min-width: 180px;
+}
+header ul li ul li a{
+	text-decoration: none;
+	padding: 15px;
+	background-color: #eee;
+	display: block;
+	color: #777;
+	transition: all .2s ease-out;
+}
+header ul li ul li a:hover{
+	background-color: #4ab3f9;
+	color: #FFF;
+}

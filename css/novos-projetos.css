@@ -1,0 +1,32 @@
+.template > div img.top-left{
+	position: absolute; 
+	top: 0; 
+	left: 0;
+}
+.template > div img.top-right{
+	position: absolute; 
+	top: 0; 
+	right: 0;
+}
+.template > div img.bottom-left{
+	position: absolute; 
+	bottom: 0; 
+	left: 0;
+}
+.template > div img.bottom-right{
+	position: absolute; 
+	bottom: 0; 
+	right: 0;
+}
+.template > div img.smile{
+	width: 57px; 
+	height: 57px; 
+	margin: 0 auto 50px; 
+	display: block;
+}
+.template > div img.dextra-logo{
+	width: 171px; 
+	height: 35px; 
+	margin: 50px auto 0; 
+	display: block;
+}

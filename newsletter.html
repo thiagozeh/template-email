@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Dextra Sistemas - Artes automatizadas</title>
+		<script type="text/javascript" src="js/jquery-3.0.0.js"></script>
+		<script type="text/javascript" src="js/html2canvas.js"></script>
+		<script type="text/javascript" src="js/general.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/general.css">
+	</head>
+	<body>
+		<header>
+			<ul>
+				<li>
+					<h2>Templates</h2>
+					<ul>
+						<li>
+							<a href="gente-nova.html">Gente nova na área</a>
+						</li>
+						<li>
+							<a href="newsletter.html">Newsletter (MUX)</a>
+						</li>
+						<li>
+							<a href="novas-parcerias.html">Novas parcerias</a>
+						</li>
+						<li>
+							<a href="novos-projetos.html">Novos projetos</a>
+						</li>
+					</ul>
+				</li>
+			</ul>			
+		</header>
+		<div class="main">
+			<h1>Newsletter (MUX)</h1>
+			<section class="form">
+				<ul>
+					<li>
+						<label>Imagem de fundo:</label>
+						<input type="file" id="imagem" onchange="readURL(this, 'image_bg');">
+					</li>
+					<li>
+						<label>Título:</label>
+						<input type="text" id="titulo" placeholder="Digite o título da newsletter">
+					</li>
+					<li>
+						<label>Conteúdo:</label>
+						<textarea id="conteudo" placeholder="Digite o conteúdo da newsletter"></textarea>
+					</li>
+					<!-- <li>
+						<label>Subtítulo:</label>
+						<input type="text" id="subtitulo" placeholder="Digite o subtítulo da newsletter" />
+					</li>
+					<li>
+						<label>Conteúdo:</label>
+						<textarea id="conteudo" placeholder="Digite o conteúdo da newsletter"></textarea>
+					</li> -->
+					<li>
+						<input type="button" value="Salvar imagem" onclick="javascript:saveToImage()">
+					</li>
+				</ul>
+			</section>
+			<section class="template newsletter" id="template">
+				<div>
+					<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+		            	<tbody><tr>
+		                	<td align="center" valign="top" id="bodyCell">
+		                    	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
+		                        	<tbody><tr>
+		                            	<td align="center" valign="top">
+		                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader">
+		                                        <tbody><tr>
+		                                            <td valign="top" class="preheaderContent " style="">
+		                                                <div id="imagelogo">
+		                                                <img src="#">
+		                                                </div>
+		                                            </td>
+		                                            <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+		                                            <td valign="top" width="180" class="preheaderContent" style="padding-top:31px; padding-right:20px; ">
+		                                                mux@dextra.com.br
+		                                            </td>
+		                                            <!-- *|END:IF|* -->
+		                                        </tr>
+		                                    </tbody></table>
+		                                    <!-- // END PREHEADER -->
+		                                </td>
+		                            </tr>
+		                        	<tr>
+		                            	<td align="center" valign="top">
+		                                	<!-- BEGIN HEADER // -->
+		                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+		                                        <tbody><tr>
+		                                            <td class="image" valign="top">
+		                                            	<img id="image_bg" src="#">
+		                                            </td>
+		                                        </tr>
+		                                        <tr>
+		                                            <td valign="top" class="headerContent">
+		                                                <h1 id="titulo">{Título}</h1>
+		                                                <p id="conteudo">{Complemento}</p>
+		                                            </td>
+		                                        </tr>
+		                                    </tbody></table>
+		                                    <!-- // END HEADER -->
+		                                </td>
+		                            </tr>
+		                        	<!-- <tr> -->
+		                            	<!-- <td align="center" valign="top"> -->
+		                                	<!-- BEGIN BODY // -->
+		                                   <!--  <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
+		                                        <tr>
+		                                            <td valign="top" class="bodyContent">
+		                                                <h2 id="subtitulo">{Subtítulo}</h2>
+		                                                <p id="conteudo">{Conteúdo}</p>
+		                                            </td>
+		                                        </tr>
+		                                    </table> -->
+		                                    <!-- // END BODY -->
+		                                <!-- </td> -->
+		                            <!-- </tr> -->
+		                        	<tr>
+		                            	<td align="center" valign="top">
+		                                	<!-- BEGIN FOOTER // -->
+		                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
+		                                        <tbody><tr>
+		                                            <td valign="top" class="footerContent">&nbsp;</td>
+		                                        </tr>
+		                                    </tbody></table>
+		                                    <!-- // END FOOTER -->
+		                                </td>
+		                            </tr>
+		                        </tbody></table>
+		                        <!-- // END TEMPLATE -->
+		                    </td>
+		                </tr>
+		            </tbody></table>
+				</div>
+			</section>			
+		</div>
+		<section class="download">
+			<h2>Clique com o botão direito na imagem abaixo para salvá-la.</h2>
+			<input type="button" value="X" onclick="javascript:$('body').removeClass('to-download');$('.image-to-download').html('')" class="close">
+			<div class="image-to-download"></div>
+		</section>
+	</body>
+</html>

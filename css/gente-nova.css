@@ -1,0 +1,42 @@
+.template.gente-nova{
+	background: transparent url('../images/bg-gente-nova.png') no-repeat 0 0;
+	height: 690px;
+    width: 710px;
+    position: relative;
+    margin-bottom: 0;
+}
+.template.gente-nova > div{
+	background-color: transparent;
+	position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    bottom: 40px;
+}
+.template.gente-nova > div ul li,
+.template.gente-nova > div ul li span{
+	color: #9a9a9a;
+	font-size: 20px;
+}
+.template.gente-nova > div .image{
+	width: 251px;
+	height: 251px;
+	margin: 0 auto;
+	background: url('../images/avatar.png') no-repeat 0 0;
+	border-radius: 200px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.template.gente-nova > div .image img{
+	width: 250px;
+	height: 250px;
+	border-radius: 100px;
+	display: none;
+}
+.template.gente-nova > div .title{
+	color: #476bb5 !important;
+	font-size: 30px !important;
+	margin: 0;
+	font-weight: 900;
+}
