@@ -32,53 +32,33 @@
 		</header>
 		<div class="main">
 			<h1>Gente nova na área</h1>
-			<section class="form">
-				<ul>
-					<li>
-						<label>Foto do funcionário:</label>
-						<input type="file" id="folder" onchange="readURL(this, &#39;image_user&#39;);">
-					</li>
-					<li>
-						<label>Nome:</label>
-						<input type="text" id="nome" placeholder="Digite o nome do funcionário">
-					</li>
-					<li>
-						<label>Equipe:</label>
-						<input type="text" id="equipe" placeholder="Digite o nome da equipe">
-					</li>
-					<li>
-						<label>Chapa:</label>
-						<input type="text" id="chapa" placeholder="Digite o nome do chapa">
-					</li>
-					<li>
-						<input type="button" value="Salvar imagem" onclick="javascript:saveToImage()">
-					</li>
-				</ul>
-			</section>
-			<section class="template gente-nova" id="template">
-				<div>
-					<div class="image"><img id="image_user" src="images/avatar.png"></div>
-					<ul>
-						<li>
-							<span id="nome" class="title">{Nome do funcionário}</span>
-						</li>
-						<li>
-							<strong>Equipe: </strong>
-							<span id="equipe">{Equipe}</span>
-						</li>
-						<li>
-							<strong>Chapa: </strong>
-							<span id="chapa">{Nome do chapa}</span>
-						</li>
-					</ul>
+	
+			<h2>Selecione o template</h2>
+
+			<section class="select-template">
+				<div class="template-item">
+					<a href="gente-nova-template.html">
+						<img src="images/gente-nova-01.png">
+					</a>
+				</div>
+
+				<div class="template-item">
+					<a href="gente-nova-template-2.html">
+						<img src="images/gente-nova-02.png">
+					</a>
+				</div>
+
+				<div class="template-item">
+					<a href="gente-nova-template-3.html">
+						<img src="images/gente-nova-03.png">
+					</a>
+				</div>
+
+				<div class="template-item">
+					<a href="gente-nova-template-4.html">
+						<img src="images/gente-nova-04.png">
+					</a>
 				</div>
 			</section>
-			
-		</div>
-		<section class="download">
-			<h2>Clique com o botão direito na imagem abaixo para salvá-la.</h2>
-			<input type="button" value="X" onclick="javascript:$(&#39;body&#39;).removeClass(&#39;to-download&#39;);$(&#39;.image-to-download&#39;).html(&#39;&#39;)" class="close">
-			<div class="image-to-download"></div>
-		</section>
 	</body>
 </html>

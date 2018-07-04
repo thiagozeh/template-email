@@ -7,6 +7,7 @@
 	position: relative;
 	float: left;
 	overflow: auto;
+	box-sizing: border-box;
 }
 .template > div{
 	background-color: #F1F1F1;
