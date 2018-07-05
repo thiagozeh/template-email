@@ -48,7 +48,7 @@ hr {
 }
 
 .select-template .template-item img {
-	width: 100%;
+	width: auto;
 	height: 400px;
 }
 
