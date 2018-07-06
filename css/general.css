@@ -2,14 +2,36 @@
 @import "download.css";
 @import "form.css";
 @import "template.css";
-@import "gente-nova.css";
 @import "gente-nova-template-02.css";
 @import "gente-nova-template-03.css";
 @import "gente-nova-template-04.css";
+@import "gente-nova.css";
 @import "novas-parcerias.css";
 @import "novos-projetos.css";
 @import "novas-vagas.css";
 @import "newsletter.css";
+
+@font-face {
+	font-family: 'sunnregular';
+	src: url('../fonts/sunn.woff2') format('woff2'),
+		 url('../fonts/sunn.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'raleway-light';
+	src: url('../fonts/raleway-light.woff2') format('woff2'),
+		 url('../fonts/raleway-light.woff') format('woff');
+	font-weight: lighter;
+	font-style: lighter;
+}
+@font-face {
+	font-family: 'raleway-regular';
+	src: url('../fonts/raleway-regular.woff2') format('woff2'),
+		 url('../fonts/raleway-regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 
 html, body{
 	font-family: Arial;
@@ -19,7 +41,13 @@ html, body{
 *:focus{
 	outline: none;
 }
-
+hr {
+	opacity: .5;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	margin: 30px 0;
+}
 ul{
 	margin: 0;
 	padding: 0;

@@ -1,6 +1,6 @@
 .template.gente-nova.template-02{
 	background: transparent url('../images/bg-template-02.png') no-repeat 0 0;
-	height: 1245px;
+	height: 1294px;
 	width: 600px;
 	margin-bottom: 0;
 	border: 0;
@@ -10,7 +10,7 @@
 }
 
 .template.gente-nova.template-02 h2 {
-	font-size: 120px;
+	font-size: 105px;
 	text-align: center;
 	font-weight: 500;
 	line-height: 0;
@@ -20,8 +20,8 @@
 	width: 313px;
 	height: 313px;
 	position: absolute;
-	top: 215px;
-	left: 93px;
+	top: 260px;
+	left: 50px;
 }
 
 .template.gente-nova.template-02 .item-gente-nova .image {
@@ -70,8 +70,8 @@
 	width: 126px;
 	height: 126px;
 	position: absolute;
-	top: 160px;
-	right: 48px;
+	top: 190px;
+	right: 40px;
 }
 
 .template.gente-nova.template-02 .item-gente-nova-chapa .image {
@@ -109,8 +109,8 @@
 	width: 313px;
 	height: 313px;
 	position: absolute;
-	top: 745px;
-	left: 93px;
+	top: 760px;
+	left: 50px;
 }
 
 .template.gente-nova.template-02 .item-gente-nova-02 .image {
@@ -159,8 +159,8 @@
 	width: 126px;
 	height: 126px;
 	position: absolute;
-	top: 675px;
-	right: 48px;
+	top: 690px;
+	right: 40px;
 }
 
 .template.gente-nova.template-02 .item-gente-nova-chapa-02 .image {
