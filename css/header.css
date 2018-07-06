@@ -30,6 +30,7 @@ header ul li ul{
 	padding-top: 15px;
 	left: 0;
 	transition: all .2s ease-out;
+	z-index: 9;
 }
 header ul li:hover ul,
 header ul li ul:hover{

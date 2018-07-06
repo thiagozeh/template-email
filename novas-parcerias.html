@@ -36,28 +36,28 @@
 		<div class="main">
 			<h1>Novas Parcerias</h1>
 			<section class="form">
-				<ul>
-					<li>
-						<input type="checkbox" id="only_image" onclick="javascript:hideText();">Exibir apenas imagem
-					</li>
-					<li class="texto">
-						<label>Parceiro:</label>
-						<input type="text" id="parceiro" placeholder="Digite o nome do parceiro">
-					</li>
-					<li class="texto">
-						<label>Vantagem:</label>
-						<textarea id="vantagem" placeholder="Digite a vantagem oferecida"></textarea>
-					</li>
-					<li>
-						<label>Folder/ Imagem:</label>
-						<input type="file" id="folder" onchange="readURL(this, 'image_folder');">
-					</li>
-					<li>
-						<input type="button" value="Salvar imagem" onclick="javascript:saveToImage()">
-					</li>
-				</ul>
-
-
+				<div>
+					<ul>
+						<li>
+							<input type="checkbox" id="only_image" onclick="javascript:hideText();">Exibir apenas imagem
+						</li>
+						<li class="texto">
+							<label>Parceiro:</label>
+							<input type="text" id="parceiro" placeholder="Digite o nome do parceiro">
+						</li>
+						<li class="texto">
+							<label>Vantagem:</label>
+							<textarea id="vantagem" placeholder="Digite a vantagem oferecida"></textarea>
+						</li>
+						<li>
+							<label>Folder/ Imagem:</label>
+							<input type="file" id="folder" onchange="readURL(this, 'image_folder');">
+						</li>
+					</ul>
+				</div>
+				<div>
+					<input type="button" value="Salvar imagem" onclick="javascript:saveToImage()">
+				</div>
 			</section>
 			<section class="template novas-parcerias" id="template">
 				<div>

@@ -1,15 +1,4 @@
-.template.gente-nova > div {
-	background-color: transparent;
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-	margin: auto;
-	text-align: center;
-	bottom: 0px;
-}
-
-/* Novo layout */
+/* Escolha do template */
 .select-template {
 	max-width: 1366px;
 	display: flex;
@@ -36,9 +25,78 @@
 	height: 400px;
 }
 
+/* Geral */
 .template.gente-nova  {
 	position: relative;
 }
+
+.template.gente-nova h2 {
+	font-family: 'sunnregular';
+	font-size: 105px;
+	text-align: center;
+	font-weight: 500;
+	line-height: 0;
+}
+
+.template.gente-nova > div {
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	text-align: center;
+	bottom: 0px;
+}
+.template.gente-nova > div ul li span {
+    word-wrap: normal;
+}
+.template.gente-nova .image{
+	margin-bottom: 15px;
+}
+
+.template.gente-nova .title{ 
+	font-family: 'raleway-regular';
+	color: #000 !important;
+	font-size: 38px !important;
+	margin: 20px 0 0 0;
+}
+
+.template.gente-nova .title.title-small {
+	font-family: 'raleway-regular';
+	font-size: 28px !important; 
+}
+
+.template.gente-nova .equipe,
+.template.gente-nova .title-chapa{ 
+	font-family: 'raleway-light';
+	color: #000 !important;
+	font-size: 28px !important;
+	margin: 0;
+}
+
+.template.gente-nova .equipe.equipe-small,
+.template.gente-nova .title-chapa.equipe-small{ 
+	font-family: 'raleway-regular';
+	font-size: 18px !important;
+}
+
+span#chapa,
+span#chapa_02,
+span#chapa_03,
+span#chapa_04{
+	font-family: 'raleway-light';
+	color: #000 !important;
+	font-size: 24px !important;
+	margin: 0;
+}
+
+.template.gente-nova div[class^="item-gente-nova-chapa"] ul li,
+.template.gente-nova div[class^="item-gente-nova-chapa"] ul li span{
+	color: #9a9a9a;
+	font-size: 20px;
+}
+
 
 .template.gente-nova.template-01{
 	background: transparent url('../images/bg-template-01.png') no-repeat 0 0;
@@ -47,11 +105,11 @@
 	margin-bottom: 0;
 	border: 0;
 	padding: 0;
-	font-family: 'sunnregular';
 	overflow: hidden;
 }
 
 .template.gente-nova.template-01 h2 {
+	font-family: 'sunnregular';
 	font-size: 105px;
 	text-align: center;
 	font-weight: 500;
@@ -81,33 +139,6 @@
 	object-fit: cover;
 }
 
-.template.gente-nova.template-01 .item-gente-nova ul li,
-.template.gente-nova.template-01 .item-gente-nova ul li span{
-	color: #9a9a9a;
-	font-size: 20px;
-}
-
-.template.gente-nova.template-01 .item-gente-nova .title{ 
-	color: #000 !important;
-	font-size: 78px !important;
-	margin: 20px 0 0 0;
-}
-
-.template.gente-nova.template-01 .item-gente-nova .title.title-small {
-	font-size: 58px !important; 
-}
-
-.template.gente-nova.template-01 .item-gente-nova .equipe{ 
-	color: #000 !important;
-	font-size: 58px !important;
-	margin: 0;
-}
-
-.template.gente-nova.template-01 .item-gente-nova .equipe.equipe-small{ 
-	font-size: 48px !important;
-}
-
-
 .template.gente-nova.template-01 .item-gente-nova-chapa { 
 	width: 126px;
 	height: 126px;
@@ -129,20 +160,4 @@
 	height: 126px;
 	border: 0;
 	object-fit: cover;
-}
-
-.template.gente-nova.template-01 .item-gente-nova-chapa ul li,
-.template.gente-nova.template-01 .item-gente-nova-chapa ul li span{
-	color: #9a9a9a;
-	font-size: 20px;
-}
-
-.template.gente-nova.template-01 .item-gente-nova-chapa .title{ 
-	color: #000 !important;
-	font-size: 48px !important;
-	margin: 0;
-}
-
-.template.gente-nova.template-01 .item-gente-nova-chapa .title.title-small {
-	font-size: 30px !important; 
 }

@@ -36,31 +36,25 @@
 		<div class="main">
 			<h1>Newsletter (MUX)</h1>
 			<section class="form">
-				<ul>
-					<li>
-						<label>Imagem de fundo:</label>
-						<input type="file" id="imagem" onchange="readURL(this, 'image_bg');">
-					</li>
-					<li>
-						<label>Título:</label>
-						<input type="text" id="titulo" placeholder="Digite o título da newsletter">
-					</li>
-					<li>
-						<label>Conteúdo:</label>
-						<textarea id="conteudo" placeholder="Digite o conteúdo da newsletter"></textarea>
-					</li>
-					<!-- <li>
-						<label>Subtítulo:</label>
-						<input type="text" id="subtitulo" placeholder="Digite o subtítulo da newsletter" />
-					</li>
-					<li>
-						<label>Conteúdo:</label>
-						<textarea id="conteudo" placeholder="Digite o conteúdo da newsletter"></textarea>
-					</li> -->
-					<li>
-						<input type="button" value="Salvar imagem" onclick="javascript:saveToImage()">
-					</li>
-				</ul>
+				<div>
+					<ul>
+						<li>
+							<label>Imagem de fundo:</label>
+							<input type="file" id="imagem" onchange="readURL(this, 'image_bg');">
+						</li>
+						<li>
+							<label>Título:</label>
+							<input type="text" id="titulo" placeholder="Digite o título da newsletter">
+						</li>
+						<li>
+							<label>Conteúdo:</label>
+							<textarea id="conteudo" placeholder="Digite o conteúdo da newsletter"></textarea>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<input type="button" value="Salvar imagem" onclick="javascript:saveToImage()">
+				</div>
 			</section>
 			<section class="template newsletter" id="template">
 				<div>

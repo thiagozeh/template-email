@@ -50,20 +50,27 @@ $(document).ready(function(){
 });
 
 var titleGenteNova = $('.title');
+var equipeGenteNova = $('.equipe');
 var itemGenteNova = $('input.nomeInput');
 
 itemGenteNova.keyup(function() {
 	if($(this).val().length >= 13) {
 		titleGenteNova.addClass('title-small');
-		titleGenteNova.addClass('equipe-small');
+		equipeGenteNova.addClass('equipe-small');
+	}else if($(this).val().length < 13){
+		titleGenteNova.removeClass('title-small');
+		equipeGenteNova.removeClass('equipe-small');
 	}
 })
 
 itemGenteNova.focusout(function() {
 	if($(this).val().length >= 13) {
 		titleGenteNova.addClass('title-small');
-		titleGenteNova.addClass('equipe-small');
-	} 
+		equipeGenteNova.addClass('equipe-small');
+	}else if($(this).val().length < 13){
+		titleGenteNova.removeClass('title-small');
+		equipeGenteNova.removeClass('equipe-small');
+	}
 })
 
 var titleGenteNovaChapa = $('.title');
@@ -72,13 +79,17 @@ var itemGenteNovaChapa = $('input.chapaInput');
 itemGenteNovaChapa.keyup(function() {
 	if($(this).val().length >= 11) {
 		titleGenteNovaChapa.addClass('title-small');
+	}else if($(this).val().length < 11){
+		titleGenteNovaChapa.removeClass('title-small');
 	}
 })
 
 itemGenteNovaChapa.focusout(function() {
-	if($(this).val().length >= 13) {
+	if($(this).val().length >= 11) {
 		titleGenteNovaChapa.addClass('title-small');
-	} 
+	}else if($(this).val().length < 11){
+		titleGenteNovaChapa.removeClass('title-small');
+	}
 })
 
 
