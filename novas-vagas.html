@@ -34,33 +34,43 @@
 			<h1>Novas Vagas</h1>
 			<h2>Em construção</h2>
 			<!--<section class="form">
-				<ul>
-					<li>
-						<label>Imagem de Fundo:</label>
-						<input type="file" id="folder" onchange="readURL(this, &#39;image_user&#39;);">
-					</li>
-					<li>
-						<label>Vagas:</label>
-						<input type="text" id="nome" class="nomeInput" placeholder="Digite o nome do funcionário">
-					</li>
-					<li>
-						<input type="button" value="Salvar imagem" onclick="javascript:saveToImage()">
-					</li>
-				</ul>
+				<div>
+					<ul>
+						<li>
+							<label>Imagem de Fundo:</label>
+							<input type="file" id="folder" onchange="readURL(this, &#39;image_user&#39;);">
+						</li>
+						<li>
+							<select id="cidade" class="cidadeInput">
+								<option>Selecione a cidade</option>
+								<option>Campinas</option>
+								<option>São Paulo</option>
+							</select>
+						</li>
+						<li class="vagas">
+							<label>Vaga(s):</label>
+							<input type="text" id="vaga" class="vagaInput" placeholder="Digite o nome referente à vaga">
+						</li>
+					</ul>
+				</div>
+				<div>
+					<input type="button" value="Adicionar nova vaga" onclick="javascript:addVacancy()">
+					<input type="button" value="Salvar imagem" onclick="javascript:saveToImage()">
+				</div>
 			</section>
 			
 
 			<section class="template novas-vagas" id="template">
-				<h2>GENTE NOVA NA ÁREA</h2>
+				<h2>VENHA FAZER PARTE DO NOSSO TIME</h2>
+				<h3 id="cidade" class="cidade">{Cidade}</h3>
 				<div>
-					<div class="item-gente-nova">
-						<div class="image"><img id="image_user" src=""></div>
+					<div class="image">
+						<img id="image_user" src="">
+					</div>
+					<div class="item-novas-vagas">
 						<ul>
 							<li>
-								<span id="nome" class="title">Nome</span>
-							</li>
-							<li>
-								<span id="equipe" class="equipe">Equipe</span>
+								<span id="vaga" class="title-vaga">{Nome da Vaga}</span>
 							</li>
 						</ul>
 					</div>

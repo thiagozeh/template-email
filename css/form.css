@@ -1,15 +1,16 @@
 .form{
 	float: left;
-	margin-right: 10%;
+	margin-right: 7.5%;
 }
 .form > div:nth-child(1){
 	max-height: 450px;
 	min-height: 450px;
 	overflow-x: hidden;
 	overflow-y: auto;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
-.form li{
+.form li,
+.form li.vagas input{
 	margin-bottom: 20px;
 }
 .form label{
@@ -27,6 +28,7 @@
 	box-sizing: border-box;
 	border-radius: 4px;
 	font-size: 13px;
+	display: block;
 }
 .form input[type="checkbox"]{
 	margin-right: 10px;
@@ -50,6 +52,8 @@
 	font-weight: bold;
 	transition: all .2s ease-out;
 	font-size: 13px;
+	display: block;
+	margin-top: 10px;
 }
 .form input[type="button"]:hover{
 	background-color: #2372ea;

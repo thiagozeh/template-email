@@ -1,6 +1,14 @@
 function completeFields(){
-	$('.form li input, .form li textarea, .form li select').focusout(function(){
+	$('.form li input, .form li textarea').focusout(function(){
 		if($(this).val() != ''){
+			var value = $(this).val();
+			var id = $(this).attr('id');
+
+			$('.template #'+id+'').text(value);
+		}
+	});
+	$('.form li select').change(function(){
+		if($(this).val() != '' && $(this).val() != 'Selecione a cidade'){
 			var value = $(this).val();
 			var id = $(this).attr('id');
 
@@ -45,8 +53,20 @@ function hideText(){
 
 }
 
+function addVacancy(){
+	var count = $('li.vagas > div').length + 1;
+	$('li.vagas').append('<div id="input'+count+'"><a href"javascript:void(0);" onclick="removeVacancy(this,'+count+');">x</a><input type="text" id="vaga'+count+'" class="vagaInput" placeholder="Digite o nome referente à vaga" onblur="completeFields();"/></div>');
+	$('.item-novas-vagas ul').append('<li><span id="vaga'+count+'" class="title-vaga">{Nome da Vaga}</span></li>')
+}
+
+function removeVacancy(element, count){
+	$(element).parent('div').remove();
+	$('li span#vaga'+count+'').parent().remove();
+}
+
 $(document).ready(function(){
 	completeFields();
+
 });
 
 var titleGenteNova = $('.title');
