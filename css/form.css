@@ -1,6 +1,6 @@
 .form{
 	float: left;
-	margin-right: 7.5%;
+	margin-right: 5%;
 }
 .form > div:nth-child(1){
 	max-height: 450px;
@@ -8,6 +8,7 @@
 	overflow-x: hidden;
 	overflow-y: auto;
 	margin-bottom: 10px;
+	padding-right: 30px;
 }
 .form li,
 .form li.vagas input{

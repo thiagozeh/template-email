@@ -66,7 +66,6 @@ function removeVacancy(element, count){
 
 $(document).ready(function(){
 	completeFields();
-
 });
 
 var titleGenteNova = $('.title');
