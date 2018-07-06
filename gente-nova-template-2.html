@@ -58,15 +58,41 @@
 						<label>Nome:</label>
 						<input type="text" id="chapa" class="chapaInput" placeholder="Digite o nome do chapa">
 					</li>
-					
+				</ul>
+				<hr>
+				<ul>
 					<li>
-						<input type="button" value="Salvar imagem" onclick="javascript:saveToImage()">
+						<h2>Dados do funcionário</h2>
+					</li>
+					<li>
+							<label>Foto:</label>
+							<input type="file" id="folder" onchange="readURL(this, &#39;image_user_02&#39;);">
+						</li>
+					<li>
+						<label>Nome:</label>
+						<input type="text" id="nome_02" class="nomeInput" placeholder="Digite o nome do funcionário">
+					</li>
+					<li>
+						<label>Equipe:</label>
+						<input type="text" id="equipe_02" placeholder="Digite o nome da equipe">
+					</li>
+					<hr>
+					<li>
+						<h2>Dados do chapa</h2>
+					</li>
+					<li>
+							<label>Foto:</label>
+							<input type="file" id="folder" onchange="readURL(this, &#39;image_chapa_02&#39;);">
+						</li>
+					<li>
+						<label>Nome:</label>
+						<input type="text" id="chapa_02" class="chapaInput" placeholder="Digite o nome do chapa">
 					</li>
 				</ul>
 			</section>
 
 
-			<section class="template gente-nova template-01" id="template">
+			<section class="template gente-nova template-02" id="template">
 				<h2>GENTE NOVA NA ÁREA</h2>
 				<div>
 					<div class="item-gente-nova">
@@ -86,6 +112,27 @@
 							<ul>
 								<li>
 									<span id="chapa" class="title">Nome</span>
+								</li>
+							</ul>
+					</div>
+
+					<div class="item-gente-nova-02">
+						<div class="image"><img id="image_user_02" src="images/without-bg.png"></div>
+						<ul>
+							<li>
+								<span id="nome_02" class="title">Nome</span>
+							</li>
+							<li>
+								<span id="equipe_02" class="equipe">Equipe</span>
+							</li>
+						</ul>
+					</div>
+
+					<div class="item-gente-nova-chapa-02">
+							<div class="image"><img id="image_chapa_02" src="images/without-bg.png"></div>
+							<ul>
+								<li>
+									<span id="chapa_02" class="title">Nome</span>
 								</li>
 							</ul>
 					</div>

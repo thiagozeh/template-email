@@ -1,0 +1,376 @@
+.template.gente-nova.template-04{
+	background: transparent url('../images/bg-template-04.png') no-repeat 0 0;
+	height: 1019px;
+	width: 846px;
+	margin-bottom: 0;
+	border: 0;
+	padding: 0;
+	font-family: 'sunnregular';
+	overflow: hidden;
+}
+
+.template.gente-nova.template-04 h2 {
+	font-size: 120px;
+	text-align: center;
+	font-weight: 500;
+	line-height: 0;
+}
+
+.template.gente-nova.template-04 .item-gente-nova { 
+	width: 216px;
+	height: 216px;
+	position: absolute;
+	top: 245px;
+	left: 38px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova .image {
+	width: 216px;
+	height: 216px;
+	border-radius: 300px;
+	background: #f94c5c;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-04 .item-gente-nova .image img{
+	width: 100%;
+	height: 216px;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-04 .item-gente-nova ul li,
+.template.gente-nova.template-04 .item-gente-nova ul li span{
+	color: #9a9a9a;
+	font-size: 20px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova .title{ 
+	color: #000 !important;
+	font-size: 58px !important;
+	margin: 20px 0 0 0;
+}
+
+.template.gente-nova.template-04 .item-gente-nova .title.title-small {
+	font-size: 38px !important; 
+}
+
+.template.gente-nova.template-04 .item-gente-nova .equipe{ 
+	color: #000 !important;
+	font-size: 38px !important;
+	margin: 0;
+}
+
+.template.gente-nova.template-04 .item-gente-nova .equipe.equipe-small{ 
+	font-size: 38px !important;
+}
+
+
+.template.gente-nova.template-04 .item-gente-nova-chapa { 
+	width: 72px;
+	height: 72px;
+	position: absolute;
+	top: 197px;
+	left: 318px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa .image {
+	width: 72px;
+	height: 72px;
+	border-radius: 300px;
+	background: #f94c5c;
+	overflow: hidden;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa .image img{
+	width: 72px;
+	height: 72px;
+	border: 0;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa ul li,
+.template.gente-nova.template-04 .item-gente-nova-chapa ul li span{
+	color: #9a9a9a;
+	font-size: 20px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa .title{ 
+	color: #000 !important;
+	font-size: 38px !important;
+	margin: 0;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa .title.title-small {
+	font-size: 30px !important; 
+}
+
+/* Funcionário 02 */
+.template.gente-nova.template-04 .item-gente-nova-02 { 
+	width: 216px;
+	height: 216px;
+	position: absolute;
+	top: 245px;
+	right: 155px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-02 .image {
+	width: 216px;
+	height: 216px;
+	border-radius: 300px;
+	background: #f94c5c;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-02 .image img{
+	width: 100%;
+	height: 216px;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-02 ul li,
+.template.gente-nova.template-04 .item-gente-nova-02 ul li span{
+	color: #9a9a9a;
+	font-size: 20px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-02 .title{ 
+	color: #000 !important;
+	font-size: 58px !important;
+	margin: 20px 0 0 0;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-02 .title.title-small {
+	font-size: 38px !important; 
+}
+
+.template.gente-nova.template-04 .item-gente-nova-02 .equipe{ 
+	color: #000 !important;
+	font-size: 38px !important;
+	margin: 0;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-02 .equipe.equipe-small{ 
+	font-size: 38px !important;
+}
+
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-02 { 
+	width: 72px;
+	height: 72px;
+	position: absolute;
+	top: 197px;
+	right: 38px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-02 .image {
+	width: 72px;
+	height: 72px;
+	border-radius: 300px;
+	background: #f94c5c;
+	overflow: hidden;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-02 .image img{
+	width: 72px;
+	height: 72px;
+	border: 0;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-02 ul li,
+.template.gente-nova.template-04 .item-gente-nova-chapa-02 ul li span{
+	color: #9a9a9a;
+	font-size: 20px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-02 .title{ 
+	color: #000 !important;
+	font-size: 38px !important;
+	margin: 0;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-02 .title.title-small {
+	font-size: 30px !important; 
+}
+
+/* Funcionário 03 */
+.template.gente-nova.template-04 .item-gente-nova-03 { 
+	width: 216px;
+	height: 216px;
+	position: absolute;
+	top: 596px;
+	left: 38px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-03 .image {
+	width: 216px;
+	height: 216px;
+	border-radius: 300px;
+	background: #f94c5c;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-03 .image img{
+	width: 100%;
+	height: 216px;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-03 ul li,
+.template.gente-nova.template-04 .item-gente-nova-03 ul li span{
+	color: #9a9a9a;
+	font-size: 20px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-03 .title{ 
+	color: #000 !important;
+	font-size: 58px !important;
+	margin: 20px 0 0 0;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-03 .title.title-small {
+	font-size: 38px !important; 
+}
+
+.template.gente-nova.template-04 .item-gente-nova-03 .equipe{ 
+	color: #000 !important;
+	font-size: 38px !important;
+	margin: 0;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-03 .equipe.equipe-small{ 
+	font-size: 38px !important;
+}
+
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-03 { 
+	width: 72px;
+	height: 72px;
+	position: absolute;
+	top: 562px;
+	left: 318px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-03 .image {
+	width: 72px;
+	height: 72px;
+	border-radius: 300px;
+	background: #f94c5c;
+	overflow: hidden;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-03 .image img{
+	width: 72px;
+	height: 72px;
+	border: 0;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-03 ul li,
+.template.gente-nova.template-04 .item-gente-nova-chapa-03 ul li span{
+	color: #9a9a9a;
+	font-size: 20px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-03 .title{ 
+	color: #000 !important;
+	font-size: 38px !important;
+	margin: 0;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-03 .title.title-small {
+	font-size: 30px !important; 
+}
+
+/* Funcionário 04 */
+.template.gente-nova.template-04 .item-gente-nova-04 { 
+	width: 216px;
+	height: 216px;
+	position: absolute;
+	top: 596px;
+	right: 155px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-04 .image {
+	width: 216px;
+	height: 216px;
+	border-radius: 300px;
+	background: #f94c5c;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-04 .image img{
+	width: 100%;
+	height: 216px;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-04 ul li,
+.template.gente-nova.template-04 .item-gente-nova-04 ul li span{
+	color: #9a9a9a;
+	font-size: 20px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-04 .title{ 
+	color: #000 !important;
+	font-size: 58px !important;
+	margin: 20px 0 0 0;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-04 .title.title-small {
+	font-size: 38px !important; 
+}
+
+.template.gente-nova.template-04 .item-gente-nova-04 .equipe{ 
+	color: #000 !important;
+	font-size: 38px !important;
+	margin: 0;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-04 .equipe.equipe-small{ 
+	font-size: 38px !important;
+}
+
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-04 { 
+	width: 72px;
+	height: 72px;
+	position: absolute;
+	top: 562px;
+	right: 38px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-04 .image {
+	width: 72px;
+	height: 72px;
+	border-radius: 300px;
+	background: #f94c5c;
+	overflow: hidden;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-04 .image img{
+	width: 72px;
+	height: 72px;
+	border: 0;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-04 ul li,
+.template.gente-nova.template-04 .item-gente-nova-chapa-04 ul li span{
+	color: #9a9a9a;
+	font-size: 20px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-04 .title{ 
+	color: #000 !important;
+	font-size: 38px !important;
+	margin: 0;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-04 .title.title-small {
+	font-size: 30px !important; 
+}

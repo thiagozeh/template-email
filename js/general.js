@@ -49,16 +49,13 @@ $(document).ready(function(){
 	completeFields();
 });
 
-var titleGenteNova = $('.item-gente-nova .title');
+var titleGenteNova = $('.title');
 var itemGenteNova = $('input.nomeInput');
 
 itemGenteNova.keyup(function() {
 	if($(this).val().length >= 13) {
 		titleGenteNova.addClass('title-small');
 		titleGenteNova.addClass('equipe-small');
-	} else {
-		titleGenteNova.removeClass('title-small');
-		titleGenteNova.removeClass('equipe-small');
 	}
 })
 
@@ -66,29 +63,22 @@ itemGenteNova.focusout(function() {
 	if($(this).val().length >= 13) {
 		titleGenteNova.addClass('title-small');
 		titleGenteNova.addClass('equipe-small');
-	} else {
-		titleGenteNova.removeClass('title-small');
-		titleGenteNova.removeClass('equipe-small');
-	}
+	} 
 })
 
-var titleGenteNovaChapa = $('.item-gente-nova-chapa .title');
+var titleGenteNovaChapa = $('.title');
 var itemGenteNovaChapa = $('input.chapaInput');
 
 itemGenteNovaChapa.keyup(function() {
 	if($(this).val().length >= 11) {
 		titleGenteNovaChapa.addClass('title-small');
-	} else {
-		titleGenteNovaChapa.removeClass('title-small');
 	}
 })
 
 itemGenteNovaChapa.focusout(function() {
 	if($(this).val().length >= 13) {
 		titleGenteNovaChapa.addClass('title-small');
-	} else {
-		titleGenteNovaChapa.removeClass('title-small');
-	}
+	} 
 })
 
 
