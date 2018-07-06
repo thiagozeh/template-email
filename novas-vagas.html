@@ -3,9 +3,6 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>Dextra Sistemas - Artes automatizadas</title>
-		<script type="text/javascript" src="js/jquery-3.0.0.js"></script>
-		<script type="text/javascript" src="js/html2canvas.js"></script>
-		<script type="text/javascript" src="js/general.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/general.css">
 	</head>
 	<body>
@@ -15,87 +12,77 @@
 					<h2>Templates</h2>
 					<ul>
 						<li>
-							<a href="gente-nova.html">Gente nova na área</a>
+							<a href="gente-nova.html">Gente Nova na Área</a>
+						</li>
+						<li>
+							<a href="novas-vagas.html">Novas Vagas</a>
+						</li>
+						<li>
+							<a href="novas-parcerias.html">Novas Parcerias</a>
+						</li>
+						<li>
+							<a href="novos-projetos.html">Novos Projetos</a>
 						</li>
 						<li>
 							<a href="newsletter.html">Newsletter (MUX)</a>
 						</li>
-						<li>
-							<a href="novas-parcerias.html">Novas parcerias</a>
-						</li>
-						<li>
-							<a href="novos-projetos.html">Novos projetos</a>
-						</li>
 					</ul>
 				</li>
-			</ul>
+			</ul>				
 		</header>
 		<div class="main">
-			<h1>Novos Projetos</h1>
+			<h1>Gente nova na área</h1>
 			<section class="form">
 				<ul>
 					<li>
-						<label>Cliente:</label>
-						<input type="text" id="cliente" placeholder="Digite o nome do cliente">
+						<label>Imagem de Fundo:</label>
+						<input type="file" id="folder" onchange="readURL(this, &#39;image_user&#39;);">
 					</li>
 					<li>
-						<label>Projeto:</label>
-						<textarea id="projeto" placeholder="Digite a descrição do projeto"></textarea>
-					</li>
-					<li>
-						<label>Equipe:</label>
-						<input type="text" id="equipe" placeholder="Digite o nome da equipe">
-					</li>
-					<li>
-						<label>Início:</label>
-						<input type="text" id="inicio" placeholder="Digite a data de início (ex: 05/06/16)">
+						<label>Vagas:</label>
+						<input type="text" id="nome" class="nomeInput" placeholder="Digite o nome do funcionário">
 					</li>
 					<li>
 						<input type="button" value="Salvar imagem" onclick="javascript:saveToImage()">
 					</li>
 				</ul>
-
-
 			</section>
-			<section class="template" id="template">
+
+
+			<section class="template gente-nova template-01" id="template">
+				<h2>GENTE NOVA NA ÁREA</h2>
 				<div>
-					<img src="images/top-left.png" class="top-left">
-					<img src="images/top-right.png" class="top-right">
-					<img src="images/bottom-left.png" class="bottom-left">
-					<img src="images/bottom-right.png" class="bottom-right">
+					<div class="item-gente-nova">
+						<div class="image"><img id="image_user" src=""></div>
+						<ul>
+							<li>
+								<span id="nome" class="title">Nome</span>
+							</li>
+							<li>
+								<span id="equipe" class="equipe">Equipe</span>
+							</li>
+						</ul>
+					</div>
 
-					<h1>Pessoal temos mais projetos novos iniciando na Dextra:</h1>
-
-					<img src="images/smile.png" class="smile">
-
-					<ul>
-						<li>
-							<strong>Cliente: </strong>
-							<span id="cliente">{Nome do cliente}</span>
-						</li>
-						<li>
-							<strong>Projeto: </strong>
-							<span id="projeto">{Descrição do projeto}</span>
-						</li>
-						<li>
-							<strong>Equipe: </strong>
-							<span id="equipe">{Nome da equipe}</span>
-						</li>
-						<li>
-							<strong>Início: </strong>
-							<span id="inicio">{Data de início do projeto}</span>
-						</li>
-					</ul>
-
-					<img src="images/dextra-logo.png" class="dextra-logo">
-
+					<div class="item-gente-nova-chapa">
+							<div class="image"><img id="image_chapa" src=""></div>
+							<ul>
+								<li>
+									<span id="chapa" class="title">Nome</span>
+								</li>
+							</ul>
+					</div>
 				</div>
 			</section>
 		</div>
 		<section class="download">
 			<h2>Clique com o botão direito na imagem abaixo para salvá-la.</h2>
-			<input type="button" value="X" onclick="javascript:$('body').removeClass('to-download');$('.image-to-download').html('')" class="close">
+			<input type="button" value="X" onclick="javascript:$(&#39;body&#39;).removeClass(&#39;to-download&#39;);$(&#39;.image-to-download&#39;).html(&#39;&#39;)" class="close">
 			<div class="image-to-download"></div>
 		</section>
-	
-</body></html>
+	</body>
+
+	<script type="text/javascript" src="js/jquery-3.0.0.js"></script>
+	<script type="text/javascript" src="js/html2canvas.js"></script>
+	<script type="text/javascript" src="js/general.js"></script>
+</html>

@@ -1,7 +1,7 @@
 @font-face {
-	font-family: 'sunnregular';
-	src: url('../fonts/sunn-webfont.woff2') format('woff2'),
-			 url('sunn-webfont.woff') format('woff');
+	font-family: 'liquid_amber_demo';
+	src: url('../fonts/liquid_amber_demo.woff2') format('woff2'),
+		 url('liquid_amber_demo.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
