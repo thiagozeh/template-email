@@ -68,7 +68,6 @@ function readURL_background(input) {
 		var reader = new FileReader();
 
 		reader.onload = function (e) {
-			console.log(e.target);
 			$('#template > div').css({'background' : 'url("'+e.target.result+'") no-repeat center center' , 'background-size' : 'cover'});
 		};
 
