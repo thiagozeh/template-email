@@ -32,65 +32,64 @@
 		</header>
 		<div class="main">
 			<h1>Novas Vagas</h1>
-			<h2>Em construção</h2>
-			<!--<section class="form">
+			<section class="form">
 				<div>
 					<ul>
 						<li>
 							<label>Imagem de Fundo:</label>
-							<input type="file" id="folder" onchange="readURL(this, &#39;image_user&#39;);">
+							<input type="file" id="folder" onchange="javascript:readURL_background(this)">
 						</li>
 						<li>
+							<label>Cidade:</label>
 							<select id="cidade" class="cidadeInput">
 								<option>Selecione a cidade</option>
 								<option>Campinas</option>
 								<option>São Paulo</option>
 							</select>
 						</li>
+						<li>
+							<label>Cor do box:</label>
+							<input type="color" id="color-box" onchange="javascript:applyColor(this);" />
+						</li>
 						<li class="vagas">
 							<label>Vaga(s):</label>
-							<input type="text" id="vaga" class="vagaInput" placeholder="Digite o nome referente à vaga">
+							<input type="text" id="vaga" class="vaga-input-first" placeholder="Digite o nome referente à vaga">
 						</li>
 					</ul>
 				</div>
 				<div>
-					<input type="button" value="Adicionar nova vaga" onclick="javascript:addVacancy()">
-					<input type="button" value="Salvar imagem" onclick="javascript:saveToImage()">
+					<input type="button" value="Adicionar nova vaga" id="vacancy" onclick="javascript:addVacancy()">
+					<input type="button" value="Salvar imagem" onclick="javascript:saveToImageVacancy()">
 				</div>
 			</section>
 			
 
 			<section class="template novas-vagas" id="template">
-				<h2>VENHA FAZER PARTE DO NOSSO TIME</h2>
-				<h3 id="cidade" class="cidade">{Cidade}</h3>
 				<div>
-					<div class="image">
-						<img id="image_user" src="">
-					</div>
-					<div class="item-novas-vagas">
-						<ul>
-							<li>
-								<span id="vaga" class="title-vaga">{Nome da Vaga}</span>
-							</li>
-						</ul>
-					</div>
+					<div class="content-left">
 
-					<div class="item-gente-nova-chapa">
-							<div class="image"><img id="image_chapa" src=""></div>
-							<ul>
-								<li>
-									<span id="chapa" class="title">Nome</span>
-								</li>
-							</ul>
+						<h2>VENHA FAZER PARTE DO NOSSO TIME</h2>
+						<h3 id="cidade" class="cidade">{Cidade}</h3>
+						<div>
+							<div class="item-novas-vagas">
+								<ul>
+									<li>
+										<span id="vaga" class="title-vaga">{Nome da Vaga}</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="bg"></div>
 					</div>
+					<img src="images/footer.png" class="footer" />
 				</div>
-			</section>-->
+			</section>
 		</div>
-		<!--<section class="download">
+		<section class="download">
 			<h2>Clique com o botão direito na imagem abaixo para salvá-la.</h2>
-			<input type="button" value="X" onclick="javascript:$(&#39;body&#39;).removeClass(&#39;to-download&#39;);$(&#39;.image-to-download&#39;).html(&#39;&#39;)" class="close">
+			<input type="button" value="X" onclick="javascript:$('body').removeClass('to-download');$('.image-to-download').html('');" class="close" />
 			<div class="image-to-download"></div>
-		</section>-->
+		</section>
 	</body>
 
 	<script type="text/javascript" src="js/jquery-3.0.0.js"></script>

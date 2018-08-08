@@ -56,6 +56,37 @@
 	display: block;
 	margin-top: 10px;
 }
+.form input[type="button"]:disabled,
+.form input[type="button"][disabled],
+.form input[type="button"]:disabled:hover,
+.form input[type="button"][disabled]:hover{
+	background-color: #757575;
+	opacity: .5;
+	cursor: default;
+}
+
 .form input[type="button"]:hover{
 	background-color: #2372ea;
+}
+.form input[type="text"].vaga-input{
+	width: 85%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.form input[type="text"].vaga-input-first{
+	width: 100%;
+	display: block;
+	margin: 0 0 20px 0;
+}
+.form a.delete{
+	padding: 1px 3px 5px 4px;
+    border-radius: 100px;
+    width: 15px;
+    height: 15px;
+    border: solid 1px #DC0C30;
+    color: #DC0C30;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
 }

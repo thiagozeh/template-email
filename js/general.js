@@ -29,18 +29,50 @@ function saveToImage(){
 		});		
 	},500);
 }
+function saveToImageVacancy(){
+	window.scrollTo(0,0);
+	$('.template.novas-vagas').scrollLeft(200);
+	setTimeout(function(){
+		html2canvas($("#template > div"), {
+			allowTaint: true,
+			width: 1000,
+			height: 1000
+		}).then(function(canvas) {
+				$('body').addClass('to-download');
+				$('.download').show();
+				$('.image-to-download').prepend(canvas);
+		});		
+	},500);
+}
 
 function readURL(input, id) {
 	if (input.files && input.files[0]) {
 		var reader = new FileReader();
 
 		reader.onload = function (e) {
-			$('#'+id+'')
-	  		.attr('src', e.target.result)
+			$('#'+id+'').attr('src', e.target.result)
 		};
 
 		reader.readAsDataURL(input.files[0]);
 		$('#'+id+'').show();
+	}
+}
+
+function applyColor(input){
+	var color = input.value;
+	$('.template.novas-vagas .bg').css('background-color',color);
+}
+
+function readURL_background(input) {
+	if (input.files && input.files[0]) {
+		var reader = new FileReader();
+
+		reader.onload = function (e) {
+			console.log(e.target);
+			$('#template > div').css({'background' : 'url("'+e.target.result+'") no-repeat center center' , 'background-size' : 'cover'});
+		};
+
+		reader.readAsDataURL(input.files[0]);
 	}
 }
 
@@ -55,17 +87,28 @@ function hideText(){
 
 function addVacancy(){
 	var count = $('li.vagas > div').length + 1;
-	$('li.vagas').append('<div id="input'+count+'"><a href"javascript:void(0);" onclick="removeVacancy(this,'+count+');">x</a><input type="text" id="vaga'+count+'" class="vagaInput" placeholder="Digite o nome referente à vaga" onblur="completeFields();"/></div>');
-	$('.item-novas-vagas ul').append('<li><span id="vaga'+count+'" class="title-vaga">{Nome da Vaga}</span></li>')
+	if(count < 6){
+		$('li.vagas').append('<div id="input'+count+'"><input type="text" id="vaga'+count+'" class="vaga-input" placeholder="Digite o nome referente à vaga" onchange="completeFields();"/><a href"javascript:void(0);" onclick="removeVacancy(this,'+count+');" class="delete" title="Remover Vaga">x</a></div>');
+		$('.item-novas-vagas ul').append('<li><span id="vaga'+count+'" class="title-vaga">{Nome da Vaga}</span></li>')
+	}else{
+		$('#vacancy').attr('disabled','disabled');
+	}
 }
 
 function removeVacancy(element, count){
 	$(element).parent('div').remove();
 	$('li span#vaga'+count+'').parent().remove();
+	if(count < 6){
+		$('#vacancy').removeAttr('disabled');
+	}
 }
 
 $(document).ready(function(){
 	completeFields();
+	if($('input#color-box').length != 0){
+
+		applyColor(this);
+	}
 });
 
 var titleGenteNova = $('.title');
