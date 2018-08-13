@@ -27,7 +27,7 @@
 }
 .template.novas-vagas h2,
 .template.novas-vagas h3{
-	font-family: 'liquid_amber';
+	font-family: 'Amatic SC', cursive;
 	font-size: 72px;
 	text-align: center;
 	margin: 175px 0 30px 0;
@@ -47,7 +47,8 @@
 .template.novas-vagas ul li{
 	color: #FFF;
 	font-size: 40px;
-	font-family: 'raleway-regular';
+	font-family: 'Raleway', Helvetica, sans-serif;
+	font-weight: 100;
 }
 .template.novas-vagas .footer{
 	width: 1000px;

@@ -11,37 +11,9 @@
 @import "novas-vagas.css";
 @import "newsletter.css";
 
-@font-face {
-	font-family: 'sunnregular';
-	src: url('../fonts/sunn.woff2') format('woff2'),
-		 url('../fonts/sunn.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'raleway-light';
-	src: url('../fonts/raleway-light.woff2') format('woff2'),
-		 url('../fonts/raleway-light.woff') format('woff');
-	font-weight: lighter;
-	font-style: lighter;
-}
-@font-face {
-	font-family: 'raleway-regular';
-	src: url('../fonts/raleway-regular.woff2') format('woff2'),
-		 url('../fonts/raleway-regular.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'liquid_amber';
-	src: url('../fonts/rliquid_amber.woff2') format('woff2'),
-		 url('../fonts/liquid_amber.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
 
 html, body{
-	font-family: Arial;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 13px;
 	margin: 0;
 }

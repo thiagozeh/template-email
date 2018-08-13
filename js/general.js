@@ -30,19 +30,24 @@ function saveToImage(){
 	},500);
 }
 function saveToImageVacancy(){
-	window.scrollTo(0,0);
+	//window.scrollTo(0,0);
 	//$('.template.novas-vagas').scrollLeft(200);
-	setTimeout(function(){
-		html2canvas($("#template > div"), {
-			allowTaint: true,
-			width: 1000,
-			height: 1000
-		}).then(function(canvas) {
-				$('body').addClass('to-download');
-				$('.download').show();
-				$('.image-to-download').prepend(canvas);
-		});		
-	},500);
+	//setTimeout(function(){
+		//html2canvas($("#template > div"), {
+			//allowTaint: true,
+			//width: 1000,
+			//height: 1000
+		//}).then(function(canvas) {
+				//$('body').addClass('to-download');
+				//$('.download').show();
+				//$('.image-to-download').prepend(canvas);
+		//});		
+	//},500);
+	html2canvas(document.querySelector("#template > div")).then(canvas => {
+	    $('body').addClass('to-download');
+		$('.download').show();
+		$('.image-to-download').prepend(canvas);
+	});
 }
 
 function readURL(input, id) {
@@ -88,7 +93,7 @@ function addVacancy(){
 	var count = $('li.vagas > div').length + 1;
 	if(count < 6){
 		$('li.vagas').append('<div id="input'+count+'"><input type="text" id="vaga'+count+'" class="vaga-input" placeholder="Digite o nome referente à vaga" onchange="completeFields();"/><a href"javascript:void(0);" onclick="removeVacancy(this,'+count+');" class="delete" title="Remover Vaga">x</a></div>');
-		$('.item-novas-vagas ul').append('<li><span id="vaga'+count+'" class="title-vaga"  style="background: url(images/check.png) no-repeat 0 0">{Nome da Vaga}</span></li>')
+		$('.item-novas-vagas ul').append('<li><span id="vaga'+count+'" class="title-vaga"  style="background: url(images/check.png) no-repeat 0 0">{Nome&nbsp;da&nbsp;Vaga}</span></li>')
 	}else{
 		$('#vacancy').attr('disabled','disabled');
 	}

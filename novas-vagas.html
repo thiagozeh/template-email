@@ -3,6 +3,8 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>Dextra Sistemas - Artes automatizadas</title>
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/general.css">
 	</head>
 	<body>
@@ -33,8 +35,8 @@
 		<div class="main">
 			<h1>Novas Vagas</h1>
 
-			<h2>Em construção</h2>
-			<!--<section class="form">
+			<!--<h2>Em construção</h2>-->
+			<section class="form">
 				<div>
 					<ul>
 						<li>
@@ -46,12 +48,17 @@
 							<select id="cidade" class="cidadeInput">
 								<option>Selecione a cidade</option>
 								<option>Campinas</option>
-								<option>São Paulo</option>
+								<option>São&nbsp;Paulo</option>
 							</select>
 						</li>
 						<li>
 							<label>Cor do box:</label>
 							<input type="color" id="color-box" onchange="javascript:applyColor(this);" />
+						</li>
+						<li class="posicao">
+							<label>Posição do conteúdo:</label>
+							<input type="radio" id="direita" name="position" /><span>Direita</span>
+							<input type="radio" id="esquerda" value="position" /><span>Esquerda</span>
 						</li>
 						<li class="vagas">
 							<label>Vaga(s):</label>
@@ -70,13 +77,13 @@
 				<div>
 					<div class="content-left">
 
-						<h2>VENHA FAZER PARTE DO NOSSO TIME</h2>
+						<h2>VENHA&nbsp;FAZER&nbsp;PARTE&nbsp;<br/>DO&nbsp;NOSSO&nbsp;TIME</h2>
 						<h3 id="cidade" class="cidade">{Cidade}</h3>
 						<div>
 							<div class="item-novas-vagas">
 								<ul>
 									<li>
-										<span id="vaga" class="title-vaga" style="background: url('images/check.png') no-repeat 0 0">{Nome da Vaga}</span>
+										<span id="vaga" class="title-vaga" style="background: url('images/check.png') no-repeat 0 0">{Nome&nbsp;da&nbsp;Vaga}</span>
 									</li>
 								</ul>
 							</div>
@@ -85,7 +92,7 @@
 					</div>
 					<img src="images/footer.png" class="footer" />
 				</div>
-			</section>-->
+			</section>
 		</div>
 		<section class="download">
 			<h2>Clique com o botão direito na imagem abaixo para salvá-la.</h2>
@@ -95,6 +102,6 @@
 	</body>
 
 	<script type="text/javascript" src="js/jquery-3.0.0.js"></script>
-	<script type="text/javascript" src="js/html2canvas.js"></script>
+	<script type="text/javascript" src="js/html2canvas.min.js"></script>
 	<script type="text/javascript" src="js/general.js"></script>
 </html>
