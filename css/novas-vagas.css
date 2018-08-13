@@ -15,7 +15,7 @@
 	padding: 0;
 	border: 1px solid #EEE; 
 }
-.template.novas-vagas .content-left{
+.template.novas-vagas .content-vagas{
 	float:left;
 	margin-left: 25px;
 	height: 100%;
@@ -24,6 +24,11 @@
     padding: 20px;
     position: relative;
     background-color: transparent;
+}
+.template.novas-vagas .content-vagas.direita{
+	float:right;
+	margin-left: 0;
+	margin-right: 25px;
 }
 .template.novas-vagas h2,
 .template.novas-vagas h3{

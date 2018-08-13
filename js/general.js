@@ -18,38 +18,27 @@ function completeFields(){
 }
 function saveToImage(){
 	window.scrollTo(0,0);
-	setTimeout(function(){
-		html2canvas($("#template"), {
-			allowTaint: true,
-			onrendered: function(canvas) {
-				$('body').addClass('to-download');
-				$('.download').show();
-				$('.image-to-download').prepend(canvas);
-			}
-		});		
-	},500);
+	html2canvas(document.querySelector("#template")).then(canvas => {
+	    $('body').addClass('to-download');
+		$('.download').show();
+		$('.image-to-download').prepend(canvas);
+	});
 }
 function saveToImageVacancy(){
-	//window.scrollTo(0,0);
-	//$('.template.novas-vagas').scrollLeft(200);
-	//setTimeout(function(){
-		//html2canvas($("#template > div"), {
-			//allowTaint: true,
-			//width: 1000,
-			//height: 1000
-		//}).then(function(canvas) {
-				//$('body').addClass('to-download');
-				//$('.download').show();
-				//$('.image-to-download').prepend(canvas);
-		//});		
-	//},500);
 	html2canvas(document.querySelector("#template > div")).then(canvas => {
 	    $('body').addClass('to-download');
 		$('.download').show();
 		$('.image-to-download').prepend(canvas);
 	});
 }
-
+function applyPosition(input){
+	var field = input.id;
+	if(field == 'direita'){
+		$('.content-vagas').addClass('direita');
+	}else if(field == 'esquerda'){
+		$('.content-vagas').removeClass('direita');
+	}
+}
 function readURL(input, id) {
 	if (input.files && input.files[0]) {
 		var reader = new FileReader();

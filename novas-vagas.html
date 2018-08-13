@@ -57,8 +57,8 @@
 						</li>
 						<li class="posicao">
 							<label>Posição do conteúdo:</label>
-							<input type="radio" id="direita" name="position" /><span>Direita</span>
-							<input type="radio" id="esquerda" value="position" /><span>Esquerda</span>
+							<input type="radio" id="esquerda" name="position" onchange="javascript:applyPosition(this);" checked="checked"/><span>Esquerda</span>
+							<input type="radio" id="direita" name="position" onchange="javascript:applyPosition(this);" /><span>Direita</span>
 						</li>
 						<li class="vagas">
 							<label>Vaga(s):</label>
@@ -75,7 +75,7 @@
 
 			<section class="template novas-vagas" id="template">
 				<div>
-					<div class="content-left">
+					<div class="content-vagas">
 
 						<h2>VENHA&nbsp;FAZER&nbsp;PARTE&nbsp;<br/>DO&nbsp;NOSSO&nbsp;TIME</h2>
 						<h3 id="cidade" class="cidade">{Cidade}</h3>
