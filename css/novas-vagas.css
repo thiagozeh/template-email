@@ -1,21 +1,24 @@
 .item-novas-vagas .title-vaga{
     padding-left: 35px;
 }
-.template.novas-vagas{
+.template.novas-vagas.facebook,
+.template.novas-vagas.linkedin{
 	width: 70%;
 	max-width: 1002px;
 	padding: 0;
 	box-sizing: border-box;
 	border: none;
 }
-.template.novas-vagas > div{
+.template.novas-vagas.facebook > div,
+.template.novas-vagas.linkedin > div{
     box-sizing: border-box;
     width: 1000px;
 	height: 1000px;
 	padding: 0;
 	border: 1px solid #EEE; 
 }
-.template.novas-vagas .content-vagas{
+.template.novas-vagas.facebook .content-vagas,
+.template.novas-vagas.linkedin .content-vagas{
 	float:left;
 	margin-left: 25px;
 	height: 100%;
@@ -25,43 +28,51 @@
     position: relative;
     background-color: transparent;
 }
-.template.novas-vagas .content-vagas.direita{
+.template.novas-vagas.facebook .content-vagas.direita,
+.template.novas-vagas.linkedin .content-vagas.direita{
 	float:right;
 	margin-left: 0;
 	margin-right: 25px;
 }
-.template.novas-vagas h2,
-.template.novas-vagas h3{
+.template.novas-vagas.facebook h3,
+.template.novas-vagas.facebook h4,
+.template.novas-vagas.linkedin h3,
+.template.novas-vagas.linkedin h4{
 	font-family: 'Amatic SC', cursive;
 	font-size: 72px;
 	text-align: center;
-	margin: 175px 0 30px 0;
+	margin: 150px 0 30px 0;
 	color: #FFF;
 	position: relative;
     z-index: 1;
 }
-.template.novas-vagas h3{
+.template.novas-vagas.facebook h4,
+.template.novas-vagas.linkedin h4{
 	font-size: 50px;
 	margin: 0 0 70px 0;
 }
-.template.novas-vagas ul{
+.template.novas-vagas.facebook ul,
+.template.novas-vagas.linkedin ul{
 	text-align: center;
 	position: relative;
     z-index: 1;
 }
-.template.novas-vagas ul li{
+.template.novas-vagas.facebook ul li,
+.template.novas-vagas.linkedin ul li{
 	color: #FFF;
 	font-size: 40px;
 	font-family: 'Raleway', Helvetica, sans-serif;
 	font-weight: 100;
 }
-.template.novas-vagas .footer{
+.template.novas-vagas.facebook .footer,
+.template.novas-vagas.linkedin .footer{
 	width: 1000px;
 	position: absolute;
     left: 0;
     bottom: 0;
 }
-.template.novas-vagas .bg{
+.template.novas-vagas.facebook .bg,
+.template.novas-vagas.linkedin .bg{
 	opacity: 0.85;
 	position: absolute;
 	left: 0;
@@ -69,4 +80,30 @@
 	width: 100%;
 	height: 100%;
 	background-color: #641472;
+}
+.template.novas-vagas.linkedin{
+	max-width: 1202px;
+	margin-top: 5%;
+}
+.template.novas-vagas.linkedin > div{
+    box-sizing: border-box;
+    width: 1200px;
+	height: 627px;
+	padding: 0;
+	border: 1px solid #EEE; 
+}
+.template.novas-vagas.linkedin h3,
+.template.novas-vagas.linkedin h4{
+	font-size: 50px;
+	margin: 40px 0 20px 0;
+}
+.template.novas-vagas.linkedin h4{
+	font-size: 35px;
+	margin: 0 0 35px 0;
+}
+.template.novas-vagas.linkedin ul li{
+	font-size: 30px;
+}
+.template.novas-vagas.linkedin .footer{
+	width: 1200px;
 }

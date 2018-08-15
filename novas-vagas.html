@@ -36,7 +36,7 @@
 			<h1>Novas Vagas</h1>
 
 			<!--<h2>Em construção</h2>-->
-			<section class="form">
+			<section class="form vagas">
 				<div>
 					<ul>
 						<li>
@@ -67,18 +67,20 @@
 					</ul>
 				</div>
 				<div>
-					<input type="button" value="Adicionar nova vaga" id="vacancy" onclick="javascript:addVacancy()">
-					<input type="button" value="Salvar imagem" onclick="javascript:saveToImageVacancy()">
+					<input type="button" value="Adicionar nova vaga" id="vacancy" onclick="javascript:addVacancy()" class="verde">
+					<input type="button" value="Salvar imagem p/ Facebook" onclick="javascript:saveToImageVacancy_Facebook()">
+					<input type="button" value="Salvar imagem p/ Linkedin" onclick="javascript:saveToImageVacancy_Linkedin()">
 				</div>
 			</section>
 			
-
-			<section class="template novas-vagas" id="template">
+		
+			<section class="template novas-vagas facebook" id="template">
+				<h2>Facebook:</h2>
 				<div>
 					<div class="content-vagas">
 
-						<h2>VENHA&nbsp;FAZER&nbsp;PARTE&nbsp;<br/>DO&nbsp;NOSSO&nbsp;TIME</h2>
-						<h3 id="cidade" class="cidade">{Cidade}</h3>
+						<h3>VENHA&nbsp;FAZER&nbsp;PARTE&nbsp;<br/>DO&nbsp;NOSSO&nbsp;TIME</h3>
+						<h4 id="cidade" class="cidade">{Cidade}</h4>
 						<div>
 							<div class="item-novas-vagas">
 								<ul>
@@ -91,6 +93,28 @@
 						<div class="bg"></div>
 					</div>
 					<img src="images/footer.png" class="footer" />
+				</div>
+			</section>
+			
+			<section class="template novas-vagas linkedin" id="template">
+				<h2>Linkedin:</h2>
+				<div>
+					<div class="content-vagas">
+
+						<h3>VENHA&nbsp;FAZER&nbsp;PARTE&nbsp;<br/>DO&nbsp;NOSSO&nbsp;TIME</h3>
+						<h4 id="cidade" class="cidade">{Cidade}</h4>
+						<div>
+							<div class="item-novas-vagas">
+								<ul>
+									<li>
+										<span id="vaga" class="title-vaga" style="background: url('images/check.png') no-repeat 0 0">{Nome&nbsp;da&nbsp;Vaga}</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="bg"></div>
+					</div>
+					<img src="images/footer_linkedin.png" class="footer" />
 				</div>
 			</section>
 		</div>

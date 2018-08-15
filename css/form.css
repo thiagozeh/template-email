@@ -68,6 +68,12 @@
 .form input[type="button"]:hover{
 	background-color: #2372ea;
 }
+.form input[type="button"].verde{
+	background-color: #02A97B;
+}
+.form input[type="button"].verde:hover{
+	background-color: #048F4A;
+}
 .form input[type="text"].vaga-input{
 	width: 85%;
     display: inline-block;
@@ -92,4 +98,7 @@
 }
 .form .posicao span{
 	margin: 0 20px 0 5px;
+}
+.form.vagas{
+	height: 1800px;
 }
