@@ -8,7 +8,7 @@
 
 .select-template .template-item {
 	width: auto;
-	margin: 20px 30px;
+	margin: 20px 10px;
 	transition: all .3s ease-in-out;
 	filter: grayscale(100%);
 	opacity: .7;
