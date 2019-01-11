@@ -194,3 +194,16 @@
 	border: 0;
 	object-fit: cover;
 }
+
+.template.gente-nova.template-04 .item-gente-nova-chapa .faixa-chapa,
+.template.gente-nova.template-04 .item-gente-nova-chapa-02 .faixa-chapa,
+.template.gente-nova.template-04 .item-gente-nova-chapa-03 .faixa-chapa,
+.template.gente-nova.template-04 .item-gente-nova-chapa-04 .faixa-chapa {
+	width: 136px;
+	height: 31px;
+	background: transparent url('../images/new-template/faixa-chapa.png') no-repeat 0 0;
+	position: absolute;
+	bottom: 15px;
+	left: -15px;
+	border-radius: 100%;
+}
