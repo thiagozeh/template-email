@@ -135,7 +135,7 @@ itemGenteNova.focusout(function() {
 	}
 })
 
-var titleGenteNovaChapa = $('.title');
+var titleGenteNovaChapa = $('.item-gente-nova-chapa');
 var itemGenteNovaChapa = $('input.chapaInput');
 
 itemGenteNovaChapa.keyup(function() {

@@ -1,6 +1,6 @@
 .template.gente-nova.template-03{
-	background: transparent url('../images/bg-template-03.png') no-repeat 0 0;
-	height: 1808px;
+	background: transparent url('../images/new-template/bg-template-03.jpg') no-repeat 0 0;
+	height: 1378px;
 	width: 600px;
 	margin-bottom: 0;
 	border: 0;
@@ -9,25 +9,26 @@
 }
 
 .template.gente-nova.template-03 .item-gente-nova { 
-	width: 313px;
-	height: 313px;
+	width: 255px;
+	height: 244px;
 	position: absolute;
-	top: 260px;
-	left: 50px;
+	top: 121px;
+	left: 127px;
 }
 
 .template.gente-nova.template-03 .item-gente-nova .image {
-	width: 313px;
-	height: 313px;
-	border-radius: 300px;
-	background: #f94c5c;
+	width: 256px;
+	height: 245px;
+	border-radius: 245px;
+	background: #fff;
 	overflow: hidden;
 	object-fit: cover;
 }
 
 .template.gente-nova.template-03 .item-gente-nova .image img{
 	width: 100%;
-	height: 313px;
+	height: 245px;
+	border-radius: 245px;
 	object-fit: cover;
 }
 
@@ -35,115 +36,135 @@
 	width: 126px;
 	height: 126px;
 	position: absolute;
-	top: 190px;
-	right: 40px;
+	top: 136px;
+	right: 165px;
 }
 
 .template.gente-nova.template-03 .item-gente-nova-chapa .image {
-	width: 126px;
-	height: 126px;
-	border-radius: 300px;
-	background: #f94c5c;
+	width: 127px;
+	height: 127px;
+	border-radius: 127px;
+	background: #df0209;
 	overflow: hidden;
 }
 
 .template.gente-nova.template-03 .item-gente-nova-chapa .image img{
-	width: 126px;
-	height: 126px;
+	width: 127px;
+	height: 100%;
 	border: 0;
 	object-fit: cover;
 }
 
 /* Funcionário 02 */
 .template.gente-nova.template-03 .item-gente-nova-02 { 
-	width: 313px;
-	height: 313px;
+	width: 260px;
+	height: 245px;
 	position: absolute;
-	top: 760px;
-	left: 50px;
+	top: 525px;
+	left: 127px;
 }
 
 .template.gente-nova.template-03 .item-gente-nova-02 .image {
-	width: 313px;
-	height: 313px;
-	border-radius: 300px;
-	background: #f94c5c;
+	width: 261px;
+	height: 246px;
+	border-radius: 246px;
+	background: #fff;
 	overflow: hidden;
 	object-fit: cover;
 }
 
 .template.gente-nova.template-03 .item-gente-nova-02 .image img{
 	width: 100%;
-	height: 313px;
+	height: 246px;
+	border-radius: 246px;
 	object-fit: cover;
 }
 
 .template.gente-nova.template-03 .item-gente-nova-chapa-02 { 
-	width: 126px;
-	height: 126px;
+	width: 127px;
+	height: 127px;
 	position: absolute;
-	top: 690px;
-	right: 40px;
+	top: 522px;
+	right: 161px;
 }
 
 .template.gente-nova.template-03 .item-gente-nova-chapa-02 .image {
-	width: 126px;
-	height: 126px;
-	border-radius: 300px;
-	background: #f94c5c;
+	width: 127px;
+	height: 127px;
+	border-radius: 127px;
+	background: #df0209;
 	overflow: hidden;
 }
 
 .template.gente-nova.template-03 .item-gente-nova-chapa-02 .image img{
-	width: 126px;
-	height: 126px;
+	width: 128px;
+	height: 128px;
+	border-radius: 100%;
 	border: 0;
 	object-fit: cover;
 }
 
 /* Funcionário 03 */
 .template.gente-nova.template-03 .item-gente-nova-03 { 
-	width: 313px;
-	height: 313px;
+	width: 256px;
+	height: 244px;
 	position: absolute;
-	top: 1260px;
-	left: 50px;
+	top: 925px;
+	left: 150px;
 }
 
 .template.gente-nova.template-03 .item-gente-nova-03 .image {
-	width: 313px;
-	height: 313px;
-	border-radius: 300px;
-	background: #f94c5c;
+	width: 257px;
+	height: 245px;
+	border-radius: 245px;
+	background: #fff;
 	overflow: hidden;
 	object-fit: cover;
 }
 
 .template.gente-nova.template-03 .item-gente-nova-03 .image img{
 	width: 100%;
-	height: 313px;
+	height: 245px;
+	border-radius: 245px;
 	object-fit: cover;
 }
 
 .template.gente-nova.template-03 .item-gente-nova-chapa-03 { 
-	width: 126px;
-	height: 126px;
+	width: 127px;
+	height: 127px;
 	position: absolute;
-	top: 1190px;
-	right: 40px;
+	top: 940px;
+	right: 140px;
 }
 
 .template.gente-nova.template-03 .item-gente-nova-chapa-03 .image {
-	width: 126px;
-	height: 126px;
-	border-radius: 300px;
-	background: #f94c5c;
+	width: 127px;
+	height: 127px;
+	border-radius: 127px;
+	background: #df0209;
 	overflow: hidden;
 }
 
 .template.gente-nova.template-03 .item-gente-nova-chapa-03 .image img{
-	width: 126px;
-	height: 126px;
+	width: 127px;
+	height: 127px;
+	border-radius: 100%;
 	border: 0;
 	object-fit: cover;
+}
+
+.template.gente-nova.template-03 .item-gente-nova-chapa .faixa-chapa,
+.template.gente-nova.template-03 .item-gente-nova-chapa-02 .faixa-chapa,
+.template.gente-nova.template-03 .item-gente-nova-chapa-03 .faixa-chapa {
+	width: 136px;
+	height: 31px;
+	background: transparent url('../images/new-template/faixa-chapa.png') no-repeat 0 0;
+	position: absolute;
+	bottom: 15px;
+	left: -6px;
+	border-radius: 100%;
+}
+
+.template.gente-nova.template-03 .item-gente-nova-chapa-02 .faixa-chapa {
+	bottom: 0px;
 }
