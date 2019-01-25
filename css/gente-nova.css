@@ -107,7 +107,9 @@ span#chapa_06{
 .template.gente-nova .item-gente-nova-chapa.title-small span#chapa,
 .template.gente-nova .item-gente-nova-chapa.title-small span#chapa_02,
 .template.gente-nova .item-gente-nova-chapa.title-small span#chapa_03,
-.template.gente-nova .item-gente-nova-chapa.title-small span#chapa_04 {
+.template.gente-nova .item-gente-nova-chapa.title-small span#chapa_04,
+.template.gente-nova .item-gente-nova-chapa.title-small span#chapa_05,
+.template.gente-nova .item-gente-nova-chapa.title-small span#chapa_06 {
 	font-size: 16px !important;
 }
 
