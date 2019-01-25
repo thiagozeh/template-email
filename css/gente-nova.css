@@ -94,7 +94,9 @@
 span#chapa,
 span#chapa_02,
 span#chapa_03,
-span#chapa_04{
+span#chapa_04,
+span#chapa_05,
+span#chapa_06{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	color: #0367a2 !important;
