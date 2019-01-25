@@ -113,25 +113,30 @@ $(document).ready(function(){
 
 var titleGenteNova = $('.title');
 var equipeGenteNova = $('.equipe');
+var cargoGenteNova = $('.cargo');
 var itemGenteNova = $('input.nomeInput');
 
 itemGenteNova.keyup(function() {
 	if($(this).val().length >= 13) {
 		titleGenteNova.addClass('title-small');
 		equipeGenteNova.addClass('equipe-small');
+		cargoGenteNova.addClass('cargo-small ');
 	}else if($(this).val().length < 13){
 		titleGenteNova.removeClass('title-small');
 		equipeGenteNova.removeClass('equipe-small');
+		cargoGenteNova.removeClass('cargo-small ');
 	}
 })
 
 itemGenteNova.focusout(function() {
 	if($(this).val().length >= 13) {
 		titleGenteNova.addClass('title-small');
+		titleGenteNova.addClass('title-small');
 		equipeGenteNova.addClass('equipe-small');
 	}else if($(this).val().length < 13){
 		titleGenteNova.removeClass('title-small');
 		equipeGenteNova.removeClass('equipe-small');
+		cargoGenteNova.removeClass('cargo-small ');
 	}
 })
 
