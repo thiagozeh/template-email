@@ -1,0 +1,294 @@
+.template.gente-nova.template-06{
+	background: transparent url('../images/new-template/bg-template-06.jpg') no-repeat 0 0;
+	height: 1475px;
+	width: 600px;
+	margin-bottom: 0;
+	border: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.template.gente-nova.template-06 .item-gente-nova { 
+	width: 184px;
+	height: 184px;
+	position: absolute;
+	top: 184px;
+	left: 48px;
+}
+
+.template.gente-nova.template-06 .item-gente-nova .image {
+	width: 184px;
+	height: 184px;
+	border-radius: 184px;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-06 .item-gente-nova .image img{
+	width: 100%;
+	height: 184px;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa { 
+	width: 89px;
+	height: 89px;
+	position: absolute;
+	top: 152px;
+	left: 177px;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa .image {
+	width: 89px;
+	height: 89px;
+	border-radius: 89px;
+	overflow: hidden;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa .image img{
+	width: 89px;
+	height: 89px;
+	border: 0;
+	object-fit: cover;
+}
+
+/* Funcionário 02 */
+.template.gente-nova.template-06 .item-gente-nova-02 { 
+	width: 183px;
+	height: 183px;
+	position: absolute;
+	top: 183px;
+	right: 48px;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-02 .image {
+	width: 183px;
+	height: 183px;
+	border-radius: 183px;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-02 .image img{
+	width: 100%;
+	height: 183px;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa-02 { 
+	width: 89px;
+	height: 89px;
+	position: absolute;
+	top: 152px;
+	right: 173px;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa-02 .image {
+	width: 89px;
+	height: 89px;
+	border-radius: 100px;
+	overflow: hidden;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa-02 .image img{
+	width: 89px;
+	height: 89px;
+	border: 0;
+	object-fit: cover;
+}
+
+/* Funcionário 03 */
+.template.gente-nova.template-06 .item-gente-nova-03 { 
+	width: 183px;
+	height: 183px;
+	position: absolute;
+	top: 620px;
+	left: 48px;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-03 .image {
+	width: 183px;
+	height: 183px;
+	border-radius: 183px;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-03 .image img{
+	width: 100%;
+	height: 183px;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa-03 { 
+	width: 89px;
+	height: 89px;
+	position: absolute;
+	top: 589px;
+	left: 178px;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa-03 .image {
+	width: 89px;
+	height: 89px;
+	border-radius: 89px;
+	overflow: hidden;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa-03 .image img{
+	width: 89px;
+	height: 89px;
+	border: 0;
+	object-fit: cover;
+}
+
+/* Funcionário 04 */
+.template.gente-nova.template-06 .item-gente-nova-04 { 
+	width: 183px;
+	height: 183px;
+	position: absolute;
+	top: 619px;
+	right: 47px;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-04 .image {
+	width: 183px;
+	height: 183px;
+	border-radius: 183px;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-04 .image img{
+	width: 100%;
+	height: 183px;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa-04 { 
+	width: 89px;
+	height: 89px;
+	position: absolute;
+	top: 589px;
+	right: 171px;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa-04 .image {
+	width: 89px;
+	height: 89px;
+	border-radius: 300px;
+	overflow: hidden;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa-04 .image img{
+	width: 89px;
+	height: 89px;
+	border: 0;
+	object-fit: cover;
+}
+
+/* Funcionário 0 */
+.template.gente-nova.template-06 .item-gente-nova-05 { 
+	width: 183px;
+	height: 183px;
+	position: absolute;
+	top: 1066px;
+	left: 47px;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-05 .image {
+	width: 183px;
+	height: 183px;
+	border-radius: 183px;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-05 .image img{
+	width: 100%;
+	height: 183px;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa-05 { 
+	width: 89px;
+	height: 89px;
+	position: absolute;
+	top: 1038px;
+	left: 175px;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa-05 .image {
+	width: 89px;
+	height: 89px;
+	border-radius: 89px;
+	overflow: hidden;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa-05 .image img{
+	width: 89px;
+	height: 89px;
+	border: 0;
+	object-fit: cover;
+}
+
+/* Funcionário 06 */
+.template.gente-nova.template-06 .item-gente-nova-06 { 
+	width: 183px;
+	height: 183px;
+	position: absolute;
+	top: 1066px;
+	right: 47px;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-06 .image {
+	width: 183px;
+	height: 183px;
+	border-radius: 183px;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-06 .image img{
+	width: 100%;
+	height: 183px;
+	object-fit: cover;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa-06 { 
+	width: 89px;
+	height: 89px;
+	position: absolute;
+	top: 1036px;
+	right: 162px;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa-06 .image {
+	width: 89px;
+	height: 89px;
+	border-radius: 89px;
+	overflow: hidden;
+}
+
+.template.gente-nova.template-06 .item-gente-nova-chapa-06 .image img{
+	width: 89px;
+	height: 89px;
+	border: 0;
+	object-fit: cover;
+}
+
+
+
+.template.gente-nova.template-06 .item-gente-nova-chapa .faixa-chapa,
+.template.gente-nova.template-06 .item-gente-nova-chapa-02 .faixa-chapa,
+.template.gente-nova.template-06 .item-gente-nova-chapa-03 .faixa-chapa,
+.template.gente-nova.template-06 .item-gente-nova-chapa-05 .faixa-chapa,
+.template.gente-nova.template-06 .item-gente-nova-chapa-06 .faixa-chapa {
+	width: 136px;
+	height: 31px;
+	background: transparent url('../images/new-template/faixa-chapa.png') no-repeat 0 0;
+	position: absolute;
+	bottom: 10px;
+	left: -24px;
+	border-radius: 100%;
+}
