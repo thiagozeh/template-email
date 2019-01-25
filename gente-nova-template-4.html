@@ -1,267 +1,299 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Dextra Sistemas - Artes automatizadas</title>
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/general.css">
-	</head>
-	<body>
-		<header>
-			<ul>
-				<li>
-					<h2>Templates</h2>
-					<ul>
-						<li>
-							<a href="gente-nova.html">Gente Nova na Área</a>
-						</li>
-						<li>
-							<a href="novas-vagas.html">Novas Vagas</a>
-						</li>
-						<li>
-							<a href="novas-parcerias.html">Novas Parcerias</a>
-						</li>
-						<li>
-							<a href="novos-projetos.html">Novos Projetos</a>
-						</li>
-						<li>
-							<a href="newsletter.html">Newsletter (MUX)</a>
-						</li>
-					</ul>
-				</li>
-			</ul>			
-		</header>
-		<div class="main">
-			<h1>Gente nova na área</h1>
-			<section class="form">
-				<div>
-					<ul>
-						<li>
-							<h2>Funcionário (1)</h2>
-						</li>
-						<li>
-								<label>Foto:</label>
-								<input type="file" id="folder" onchange="readURL(this, &#39;image_user&#39;);">
-							</li>
-						<li>
-							<label>Nome:</label>
-							<input type="text" id="nome" class="nomeInput" placeholder="Digite o nome do funcionário">
-						</li>
-						<li>
-							<label>Equipe:</label>
-							<input type="text" id="equipe" placeholder="Digite o nome da equipe">
-						</li>
-						<li>
-							<h2>Chapa (1)</h2>
-						</li>
-						<li>
-								<label>Foto:</label>
-								<input type="file" id="folder" onchange="readURL(this, &#39;image_chapa&#39;);">
-							</li>
-						<li>
-							<label>Nome:</label>
-							<input type="text" id="chapa" class="chapaInput" placeholder="Digite o nome do chapa">
-						</li>
-					</ul>
-					<hr>
-					<ul>
-						<li>
-							<h2>Funcionário (2)</h2>
-						</li>
-						<li>
-								<label>Foto:</label>
-								<input type="file" id="folder" onchange="readURL(this, &#39;image_user_02&#39;);">
-							</li>
-						<li>
-							<label>Nome:</label>
-							<input type="text" id="nome_02" class="nomeInput" placeholder="Digite o nome do funcionário">
-						</li>
-						<li>
-							<label>Equipe:</label>
-							<input type="text" id="equipe_02" placeholder="Digite o nome da equipe">
-						</li>
-						<li>
-							<h2>Chapa (2)</h2>
-						</li>
-						<li>
-								<label>Foto:</label>
-								<input type="file" id="folder" onchange="readURL(this, &#39;image_chapa_02&#39;);">
-							</li>
-						<li>
-							<label>Nome:</label>
-							<input type="text" id="chapa_02" class="chapaInput" placeholder="Digite o nome do chapa">
-						</li>
-		
-					</ul>
-					<hr>
-					<ul>
-						<li>
-							<h2>Funcionário (3)</h2>
-						</li>
-						<li>
-								<label>Foto:</label>
-								<input type="file" id="folder" onchange="readURL(this, &#39;image_user_03&#39;);">
-							</li>
-						<li>
-							<label>Nome:</label>
-							<input type="text" id="nome_03" class="nomeInput" placeholder="Digite o nome do funcionário">
-						</li>
-						<li>
-							<label>Equipe:</label>
-							<input type="text" id="equipe_03" placeholder="Digite o nome da equipe">
-						</li>
-						<li>
-							<h2>Chapa (3)</h2>
-						</li>
-						<li>
-								<label>Foto:</label>
-								<input type="file" id="folder" onchange="readURL(this, &#39;image_chapa_03&#39;);">
-							</li>
-						<li>
-							<label>Nome:</label>
-							<input type="text" id="chapa_03" class="chapaInput" placeholder="Digite o nome do chapa">
-						</li>
-					</ul>
 
-					<hr>
-					<ul>
-						<li>
-							<h2>Funcionário (4)</h2>
-						</li>
-						<li>
-								<label>Foto:</label>
-								<input type="file" id="folder" onchange="readURL(this, &#39;image_user_04&#39;);">
-							</li>
-						<li>
-							<label>Nome:</label>
-							<input type="text" id="nome_04" class="nomeInput" placeholder="Digite o nome do funcionário">
-						</li>
-						<li>
-							<label>Equipe:</label>
-							<input type="text" id="equipe_04" placeholder="Digite o nome da equipe">
-						</li>
-						<li>
-							<h2>Chapa (4)</h2>
-						</li>
-						<li>
-								<label>Foto:</label>
-								<input type="file" id="folder" onchange="readURL(this, &#39;image_chapa_04&#39;);">
-							</li>
-						<li>
-							<label>Nome:</label>
-							<input type="text" id="chapa_04" class="chapaInput" placeholder="Digite o nome do chapa">
-						</li>
-					</ul>
-				</div>
-				<div>
-					<input type="button" value="Salvar imagem" onclick="javascript:saveToImage()">
-				</div>
-			</section>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Dextra Sistemas - Artes automatizadas</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/general.css">
+</head>
 
+<body>
+	<header>
+		<ul>
+			<li>
+				<h2>Templates</h2>
+				<ul>
+					<li>
+						<a href="gente-nova.html">Gente Nova na Área</a>
+					</li>
+					<li>
+						<a href="novas-vagas.html">Novas Vagas</a>
+					</li>
+					<li>
+						<a href="novas-parcerias.html">Novas Parcerias</a>
+					</li>
+					<li>
+						<a href="novos-projetos.html">Novos Projetos</a>
+					</li>
+					<li>
+						<a href="newsletter.html">Newsletter (MUX)</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</header>
+	<div class="main">
+		<h1>Gente nova na área</h1>
+		<section class="form">
+			<div>
+				<ul>
+					<li>
+						<h2>Funcionário (1)</h2>
+					</li>
+					<li>
+						<label>Foto:</label>
+						<input type="file" id="folder" onchange="readURL(this, &#39;image_user&#39;);">
+					</li>
+					<li>
+						<label>Nome:</label>
+						<input type="text" id="nome" class="nomeInput" placeholder="Digite o nome do funcionário">
+					</li>
+					<li>
+						<label>Equipe:</label>
+						<input type="text" id="equipe" placeholder="Digite o nome da equipe">
+					</li>
+					<li>
+						<label>Cargo:</label>
+						<input type="text" id="cargo" placeholder="Digite o cargo do funcionário">
+					</li>
+					<li>
+						<h2>Chapa (1)</h2>
+					</li>
+					<li>
+						<label>Foto:</label>
+						<input type="file" id="folder" onchange="readURL(this, &#39;image_chapa&#39;);">
+					</li>
+					<li>
+						<label>Nome:</label>
+						<input type="text" id="chapa" class="chapaInput" placeholder="Digite o nome do chapa">
+					</li>
+				</ul>
+				<hr>
+				<ul>
+					<li>
+						<h2>Funcionário (2)</h2>
+					</li>
+					<li>
+						<label>Foto:</label>
+						<input type="file" id="folder" onchange="readURL(this, &#39;image_user_02&#39;);">
+					</li>
+					<li>
+						<label>Nome:</label>
+						<input type="text" id="nome_02" class="nomeInput" placeholder="Digite o nome do funcionário">
+					</li>
+					<li>
+						<label>Equipe:</label>
+						<input type="text" id="equipe_02" placeholder="Digite o nome da equipe">
+					</li>
+					<li>
+						<label>Cargo:</label>
+						<input type="text" id="cargo_02" placeholder="Digite o cargo do funcionário">
+					</li>
+					<li>
+						<h2>Chapa (2)</h2>
+					</li>
+					<li>
+						<label>Foto:</label>
+						<input type="file" id="folder" onchange="readURL(this, &#39;image_chapa_02&#39;);">
+					</li>
+					<li>
+						<label>Nome:</label>
+						<input type="text" id="chapa_02" class="chapaInput" placeholder="Digite o nome do chapa">
+					</li>
 
-			<section class="template gente-nova template-04" id="template">
-				<div>
-					<div class="item-gente-nova">
-						<div class="image"><img id="image_user" src="images/without-bg.png"></div>
-						<ul>
-							<li>
-								<span id="nome" class="title">NOME</span>
-							</li>
-							<li>
-								<span id="equipe" class="equipe">EQUIPE</span>
-							</li>
-						</ul>
-					</div>
+				</ul>
+				<hr>
+				<ul>
+					<li>
+						<h2>Funcionário (3)</h2>
+					</li>
+					<li>
+						<label>Foto:</label>
+						<input type="file" id="folder" onchange="readURL(this, &#39;image_user_03&#39;);">
+					</li>
+					<li>
+						<label>Nome:</label>
+						<input type="text" id="nome_03" class="nomeInput" placeholder="Digite o nome do funcionário">
+					</li>
+					<li>
+						<label>Equipe:</label>
+						<input type="text" id="equipe_03" placeholder="Digite o nome da equipe">
+					</li>
+					<li>
+						<label>Cargo:</label>
+						<input type="text" id="cargo_03" placeholder="Digite o cargo do funcionário">
+					</li>
+					<li>
+						<h2>Chapa (3)</h2>
+					</li>
+					<li>
+						<label>Foto:</label>
+						<input type="file" id="folder" onchange="readURL(this, &#39;image_chapa_03&#39;);">
+					</li>
+					<li>
+						<label>Nome:</label>
+						<input type="text" id="chapa_03" class="chapaInput" placeholder="Digite o nome do chapa">
+					</li>
+				</ul>
 
-					<div class="item-gente-nova-chapa">
-						<ul>
-							<li>
-								<span id="chapa" class="title">NOME</span>
-							</li>
-						</ul>
-						<div class="image"><img id="image_chapa" src="images/without-bg.png"></div>
-						<div class="faixa-chapa"></div>
-					</div>
-
-					<div class="item-gente-nova-02">
-						<div class="image"><img id="image_user_02" src="images/without-bg.png"></div>
-						<ul>
-							<li>
-								<span id="nome_02" class="title">NOME</span>
-							</li>
-							<li>
-								<span id="equipe_02" class="equipe">EQUIPE</span>
-							</li>
-						</ul>
-					</div>
-
-					<div class="item-gente-nova-chapa-02">
-						<ul>
-							<li>
-								<span id="chapa_02" class="title">NOME</span>
-							</li>
-						</ul>
-						<div class="image"><img id="image_chapa_02" src="images/without-bg.png"></div>
-						<div class="faixa-chapa"></div>
-					</div>
-
-
-					<div class="item-gente-nova-03">
-						<div class="image"><img id="image_user_03" src="images/without-bg.png"></div>
-						<ul>
-							<li>
-								<span id="nome_03" class="title">NOME</span>
-							</li>
-							<li>
-								<span id="equipe_03" class="equipe">EQUIPE</span>
-							</li>
-						</ul>
-					</div>
-
-					<div class="item-gente-nova-chapa-03">
-							<ul>
-								<li>
-									<span id="chapa_03" class="title">NOME</span>
-								</li>
-							</ul>
-							<div class="image"><img id="image_chapa_03" src="images/without-bg.png"></div>
-							<div class="faixa-chapa"></div>
-					</div>
-
-					<div class="item-gente-nova-04">
-						<div class="image"><img id="image_user_04" src="images/without-bg.png"></div>
-						<ul>
-							<li>
-								<span id="nome_04" class="title">NOME</span>
-							</li>
-							<li>
-								<span id="equipe_04" class="equipe">EQUIPE</span>
-							</li>
-						</ul>
-					</div>
-
-					<div class="item-gente-nova-chapa-04">
-							<ul>
-								<li>
-									<span id="chapa_04" class="title">NOME</span>
-								</li>
-							</ul>
-							<div class="image"><img id="image_chapa_04" src="images/without-bg.png"></div>
-							<div class="faixa-chapa"></div>
-					</div>
-
-
-				</div>
-			</section>
-		</div>
-		<section class="download">
-			<h2>Clique com o botão direito na imagem abaixo para salvá-la.</h2>
-			<input type="button" value="X" onclick="javascript:$('body').removeClass('to-download');$('.image-to-download').html('')" class="close" />
-			<div class="image-to-download"></div>
+				<hr>
+				<ul>
+					<li>
+						<h2>Funcionário (4)</h2>
+					</li>
+					<li>
+						<label>Foto:</label>
+						<input type="file" id="folder" onchange="readURL(this, &#39;image_user_04&#39;);">
+					</li>
+					<li>
+						<label>Nome:</label>
+						<input type="text" id="nome_04" class="nomeInput" placeholder="Digite o nome do funcionário">
+					</li>
+					<li>
+						<label>Equipe:</label>
+						<input type="text" id="equipe_04" placeholder="Digite o nome da equipe">
+					</li>
+					<li>
+						<label>Cargo:</label>
+						<input type="text" id="cargo_04" placeholder="Digite o cargo do funcionário">
+					</li>
+					<li>
+						<h2>Chapa (4)</h2>
+					</li>
+					<li>
+						<label>Foto:</label>
+						<input type="file" id="folder" onchange="readURL(this, &#39;image_chapa_04&#39;);">
+					</li>
+					<li>
+						<label>Nome:</label>
+						<input type="text" id="chapa_04" class="chapaInput" placeholder="Digite o nome do chapa">
+					</li>
+				</ul>
+			</div>
+			<div>
+				<input type="button" value="Salvar imagem" onclick="javascript:saveToImage()">
+			</div>
 		</section>
-	</body>
 
-	<script type="text/javascript" src="js/jquery-3.0.0.js"></script>
-	<script type="text/javascript" src="js/html2canvas.js"></script>
-	<script type="text/javascript" src="js/general.js"></script>
+
+		<section class="template gente-nova template-04" id="template">
+			<div>
+				<div class="item-new item-gente-nova">
+					<div class="image"><img id="image_user" src="images/without-bg.png"></div>
+					<ul>
+						<li>
+							<span id="nome" class="title">NOME</span>
+						</li>
+						<li>
+							<span id="equipe" class="equipe">EQUIPE</span>
+						</li>
+						<li>
+							<span id="cargo" class="equipe">CARGO</span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="item-gente-nova-chapa">
+					<ul>
+						<li>
+							<span id="chapa" class="title">NOME</span>
+						</li>
+					</ul>
+					<div class="image"><img id="image_chapa" src="images/without-bg.png"></div>
+					<div class="faixa-chapa"></div>
+				</div>
+
+				<div class="item-new  item-gente-nova-02">
+					<div class="image"><img id="image_user_02" src="images/without-bg.png"></div>
+					<ul>
+						<li>
+							<span id="nome_02" class="title">NOME</span>
+						</li>
+						<li>
+							<span id="equipe_02" class="equipe">EQUIPE</span>
+						</li>
+						<li>
+							<span id="cargo_02" class="equipe">CARGO</span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="item-gente-nova-chapa-02">
+					<ul>
+						<li>
+							<span id="chapa_02" class="title">NOME</span>
+						</li>
+					</ul>
+					<div class="image"><img id="image_chapa_02" src="images/without-bg.png"></div>
+					<div class="faixa-chapa"></div>
+				</div>
+
+
+				<div class="item-new  item-gente-nova-03">
+					<div class="image"><img id="image_user_03" src="images/without-bg.png"></div>
+					<ul>
+						<li>
+							<span id="nome_03" class="title">NOME</span>
+						</li>
+						<li>
+							<span id="equipe_03" class="equipe">EQUIPE</span>
+						</li>
+						<li>
+							<span id="cargo_03" class="equipe">CARGO</span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="item-gente-nova-chapa-03">
+					<ul>
+						<li>
+							<span id="chapa_03" class="title">NOME</span>
+						</li>
+					</ul>
+					<div class="image"><img id="image_chapa_03" src="images/without-bg.png"></div>
+					<div class="faixa-chapa"></div>
+				</div>
+
+				<div class="item-new item-gente-nova-04">
+					<div class="image"><img id="image_user_04" src="images/without-bg.png"></div>
+					<ul>
+						<li>
+							<span id="nome_04" class="title">NOME</span>
+						</li>
+						<li>
+							<span id="equipe_04" class="equipe">EQUIPE</span>
+						</li>
+						<li>
+							<span id="cargo_04" class="equipe">CARGO</span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="item-gente-nova-chapa-04">
+					<ul>
+						<li>
+							<span id="chapa_04" class="title">NOME</span>
+						</li>
+					</ul>
+					<div class="image"><img id="image_chapa_04" src="images/without-bg.png"></div>
+					<div class="faixa-chapa"></div>
+				</div>
+
+
+			</div>
+		</section>
+	</div>
+	<section class="download">
+		<h2>Clique com o botão direito na imagem abaixo para salvá-la.</h2>
+		<input type="button" value="X" onclick="javascript:$('body').removeClass('to-download');$('.image-to-download').html('')"
+		 class="close" />
+		<div class="image-to-download"></div>
+	</section>
+</body>
+
+<script type="text/javascript" src="js/jquery-3.0.0.js"></script>
+<script type="text/javascript" src="js/html2canvas.js"></script>
+<script type="text/javascript" src="js/general.js"></script>
+
 </html>
