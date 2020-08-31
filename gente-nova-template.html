@@ -52,6 +52,10 @@
 							<label>Equipe:</label>
 							<input type="text" id="equipe" placeholder="Digite o nome da equipe">
 						</li>
+						<li>
+							<label>Cargo:</label>
+							<input type="text" id="cargo" placeholder="Digite o cargo">
+						</li>
 						<hr>
 						<li>
 							<h2>Chapa</h2>
@@ -73,28 +77,29 @@
 
 
 			<section class="template gente-nova template-01" id="template">
-				<h2>GENTE NOVA NA ÁREA</h2>
 				<div>
 					<div class="item-gente-nova">
+						<div class="border-right"></div>
 						<div class="image"><img id="image_user" src="images/without-bg.png"></div>
 						<ul>
 							<li>
-								<span id="nome" class="title">{Nome}</span>
+								<span id="nome" class="title">Nome</span>
 							</li>
 							<li>
-								<span id="equipe" class="equipe">{Equipe}</span>
+								<span id="equipe" class="equipe">Equipe</span>
+							</li>
+							<li>
+								<span id="cargo" class="cargo">Cargo</span>
 							</li>
 						</ul>
 					</div>
 
 					<div class="item-gente-nova-chapa">
+							<div class="border-chapa-right"></div>
 							<div class="image"><img id="image_chapa" src="images/without-bg.png"></div>
 							<ul>
 								<li>
-									<span class="title-chapa">Chapa</span>
-								</li>
-								<li>
-									<span id="chapa" class="title">{Nome}</span>
+									<span id="chapa" class="title">Nome</span>
 								</li>
 							</ul>
 					</div>

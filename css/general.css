@@ -2,10 +2,10 @@
 @import "download.css";
 @import "form.css";
 @import "template.css";
+@import "gente-nova.css";
 @import "gente-nova-template-02.css";
 @import "gente-nova-template-03.css";
 @import "gente-nova-template-04.css";
-@import "gente-nova.css";
 @import "novas-parcerias.css";
 @import "novos-projetos.css";
 @import "novas-vagas.css";
@@ -54,4 +54,49 @@ h1{
 }
 .main > h1{
 	font-weight: bold;
+}
+
+@font-face {
+    font-family: 'maison_neuebold';
+    src: url('../font/maisonneue-bold-webfont.woff2') format('woff2'),
+         url('../font/maisonneue-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'maison_neueextended_bold';
+    src: url('../font/maisonneueextended-bold-webfont.woff2') format('woff2'),
+         url('../font/maisonneueextended-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'maison_neueextended_light';
+    src: url('../font/maisonneueextended-light-webfont.woff2') format('woff2'),
+         url('../font/maisonneueextended-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'maison_neueextended_medium';
+    src: url('../font/maisonneueextended-medium-webfont.woff2') format('woff2'),
+         url('../font/maisonneueextended-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'maison_neuemedium';
+    src: url('../font/maisonneue-medium-webfont.woff2') format('woff2'),
+         url('../font/maisonneue-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }

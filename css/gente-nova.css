@@ -30,13 +30,6 @@
 	position: relative;
 }
 
-.template.gente-nova h2 {
-	font-family: 'Amatic SC', cursive;
-	font-size: 105px;
-	text-align: center;
-	font-weight: 500;
-	line-height: 0;
-}
 
 .template.gente-nova > div {
 	background-color: transparent;
@@ -48,52 +41,47 @@
 	text-align: center;
 	bottom: 0px;
 }
+
 .template.gente-nova > div ul li span {
     word-wrap: normal;
 }
+
 .template.gente-nova .image{
 	margin-bottom: 15px;
 }
 
-.template.gente-nova .title{ 
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight: 400;
-	color: #000 !important;
-	font-size: 38px !important;
-	margin: 20px 0 0 0;
-}
-
-.template.gente-nova .title.title-small {
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight: 400;
-	font-size: 28px !important; 
-}
-
 .template.gente-nova .equipe,
+.template.gente-nova .title,
+.template.gente-nova .cargo,
 .template.gente-nova .title-chapa{ 
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight: 300;
+	font-family: 'maison_neueextended_bold';
 	color: #000 !important;
-	font-size: 28px !important;
 	margin: 0;
 }
 
-.template.gente-nova .equipe.equipe-small,
-.template.gente-nova .title-chapa.equipe-small{ 
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight: 300;
-	font-size: 18px !important;
+.template.gente-nova .title {
+	font-weight: 500;
+	font-size: 16px !important;
 }
+
+.template.gente-nova .equipe,
+.template.gente-nova .cargo {
+	font-weight: 100;
+	font-size: 12px !important;
+}
+
 
 span#chapa,
 span#chapa_02,
 span#chapa_03,
 span#chapa_04{
-	font-family: 'Raleway', Helvetica, sans-serif;
-	font-weight: 100;
+	font-family: 'maison_neueextended_bold';
 	color: #000 !important;
-	font-size: 24px !important;
+	font-size: 16px !important;
 	margin: 0;
+	margin-left: 60px;
+	display: flex;
+	justify-content: center;
 }
 
 .template.gente-nova div[class^="item-gente-nova-chapa"] ul li,
@@ -103,7 +91,7 @@ span#chapa_04{
 }
 
 
-.template.gente-nova.template-01{
+.template.gente-nova.template-01 {
 	background: transparent url('../images/bg-template-01.png') no-repeat 0 0;
 	height: 789px;
 	width: 600px;
@@ -113,56 +101,66 @@ span#chapa_04{
 	overflow: hidden;
 }
 
-.template.gente-nova.template-01 h2 {
-	font-family: 'Amatic SC', cursive;
-	font-size: 105px;
-	text-align: center;
-	font-weight: 500;
-	line-height: 0;
-}
 
 .template.gente-nova.template-01 .item-gente-nova { 
 	width: 313px;
 	height: 313px;
 	position: absolute;
-	top: 260px;
-	left: 50px;
+	top: 290px;
+	left: 108px;
 }
 
 .template.gente-nova.template-01 .item-gente-nova .image {
-	width: 313px;
-	height: 313px;
-	border-radius: 300px;
-	background: #f94c5c;
-	overflow: hidden;
-	object-fit: cover;
+	  width: 200px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 15px;
+}
+
+.template.gente-nova.template-01 .border-right {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: transparent url('../images/funcionario_big.png') no-repeat;
 }
 
 .template.gente-nova.template-01 .item-gente-nova .image img{
 	width: 100%;
-	height: 313px;
+	height: 100%;
 	object-fit: cover;
 }
 
 .template.gente-nova.template-01 .item-gente-nova-chapa { 
-	width: 126px;
-	height: 126px;
+	width: 169px;
+	height: 165px;
 	position: absolute;
-	top: 190px;
-	right: 40px;
+	top: 423px;
+	right: 124px;
 }
 
+.template.gente-nova.template-01 .item-gente-nova-chapa .border-chapa-right  {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: transparent url('../images/chapa_big.png');
+}
+
+
 .template.gente-nova.template-01 .item-gente-nova-chapa .image {
-	width: 126px;
-	height: 126px;
-	border-radius: 300px;
-	background: #f94c5c;
-	overflow: hidden;
+	  width: 120px;
+    height: 118px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 25px;
+		margin-bottom: 46px;
 }
 
 .template.gente-nova.template-01 .item-gente-nova-chapa .image img{
-	width: 126px;
-	height: 126px;
-	border: 0;
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
 }
