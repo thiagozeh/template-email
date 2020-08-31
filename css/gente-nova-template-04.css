@@ -1,196 +1,285 @@
 .template.gente-nova.template-04{
 	background: transparent url('../images/bg-template-04.png') no-repeat 0 0;
-	height: 1088px;
-	width: 846px;
+	height: 970px;
+	width: 600px;
 	margin-bottom: 0;
 	border: 0;
 	padding: 0;
 	overflow: hidden;
 }
 
+.template.gente-nova.template-04 .item-gente-nova ul,
+.template.gente-nova.template-04 .item-gente-nova-03 ul { 
+	margin-left: 85px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-02 ul,
+.template.gente-nova.template-04 .item-gente-nova-04 ul { 
+	margin-left: 10px;
+}
+
 .template.gente-nova.template-04 .item-gente-nova { 
-	width: 216px;
-	height: 216px;
+	width: 200px;
+	height: 195px;
 	position: absolute;
-	top: 260px;
-	left: 50px;
+	top: 258px;
+	left: 100px;
 }
 
 .template.gente-nova.template-04 .item-gente-nova .image {
-	width: 216px;
-	height: 216px;
-	border-radius: 300px;
-	background: #f94c5c;
+	width: 140px;
+	height: 146px;
 	overflow: hidden;
 	object-fit: cover;
+	margin-top: 45px;
+	margin-left: 28px;
+	border-radius: 15px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova .border-left {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url('../images/funcionario_small.png');
+	background-size: 100% 100%;
 }
 
 .template.gente-nova.template-04 .item-gente-nova .image img{
 	width: 100%;
-	height: 216px;
+	height: 100%;
 	object-fit: cover;
 }
 
+
 .template.gente-nova.template-04 .item-gente-nova-chapa { 
-	width: 72px;
-	height: 72px;
-	position: absolute;
-	top: 220px;
-	left: 310px;
+	  width: 131px;
+    height: 112px;
+    position: absolute;
+    top: 407px;
+    left: 37px;
 }
 
 .template.gente-nova.template-04 .item-gente-nova-chapa .image {
-	width: 72px;
-	height: 72px;
-	border-radius: 300px;
-	background: #f94c5c;
+	width: 87px;
+	height: 85px;
 	overflow: hidden;
+	margin-left: 17px;
+	margin-top: 8px;
+	margin-bottom: 35px;
+	border-radius: 10px;
 }
 
-.template.gente-nova.template-04 .item-gente-nova-chapa .image img{
-	width: 72px;
-	height: 72px;
-	border: 0;
+.template.gente-nova.template-04 .item-gente-nova-chapa .image img {
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
 }
 
-/* Funcionário 02 */
-.template.gente-nova.template-04 .item-gente-nova-02 { 
-	width: 216px;
-	height: 216px;
+.template.gente-nova.template-04 .item-gente-nova-chapa .border-chapa-left  {
+	width: 100%;
+	height: 100%;
 	position: absolute;
-	top: 260px;
-	right: 160px;
+	background: url('../images/chapa_small.png');
+	background-size: 100% 100%;
 }
+
+.template.gente-nova.template-04 .item-gente-nova-02 { 
+	width: 215px;
+	height: 190px;
+	position: absolute;
+	top: 290px;
+	right: 85px;
+}
+
 
 .template.gente-nova.template-04 .item-gente-nova-02 .image {
-	width: 216px;
-	height: 216px;
-	border-radius: 300px;
-	background: #f94c5c;
+	width: 140px;
+	height: 146px;
 	overflow: hidden;
 	object-fit: cover;
+	margin-top: 14px;
+	margin-left: 28px;
+	border-radius: 15px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-02 .border-left {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url('../images/funcionario_big.png');
+	background-size: 100% 100%;
 }
 
 .template.gente-nova.template-04 .item-gente-nova-02 .image img{
 	width: 100%;
-	height: 216px;
+	height: 100%;
 	object-fit: cover;
 }
 
 .template.gente-nova.template-04 .item-gente-nova-chapa-02 { 
-	width: 72px;
-	height: 72px;
+	width: 121px;
+	height: 117px;
 	position: absolute;
-	top: 220px;
-	right: 40px;
+	top: 387px;
+	right: 36px;
 }
 
 .template.gente-nova.template-04 .item-gente-nova-chapa-02 .image {
-	width: 72px;
-	height: 72px;
-	border-radius: 300px;
-	background: #f94c5c;
+	width: 87px;
+	height: 88px;
 	overflow: hidden;
+	margin-left: 17px;
+	margin-top: 26px;
+	margin-bottom: 35px;
+	border-radius: 10px;
 }
 
 .template.gente-nova.template-04 .item-gente-nova-chapa-02 .image img{
-	width: 72px;
-	height: 72px;
-	border: 0;
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
 }
 
-/* Funcionário 03 */
-.template.gente-nova.template-04 .item-gente-nova-03 { 
-	width: 216px;
-	height: 216px;
+.template.gente-nova.template-04 .item-gente-nova-chapa-02 .border-chapa-right  {
+	width: 100%;
+	height: 100%;
 	position: absolute;
-	top: 660px;
-	left: 50px;
+	background: url('../images/chapa_big.png');
+	background-size: 100% 100%;
 }
+
+.template.gente-nova.template-04 .item-gente-nova-03 { 
+	width: 200px;
+	height: 195px;
+	position: absolute;
+	top: 526px;
+	left: 100px;
+}
+
 
 .template.gente-nova.template-04 .item-gente-nova-03 .image {
-	width: 216px;
-	height: 216px;
-	border-radius: 300px;
-	background: #f94c5c;
+	width: 140px;
+	height: 146px;
 	overflow: hidden;
 	object-fit: cover;
+	margin-top: 45px;
+	margin-left: 28px;
+	border-radius: 15px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-03 .border-left {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url('../images/funcionario_small.png');
+	background-size: 100% 100%;
 }
 
 .template.gente-nova.template-04 .item-gente-nova-03 .image img{
 	width: 100%;
-	height: 216px;
+	height: 100%;
 	object-fit: cover;
 }
 
 .template.gente-nova.template-04 .item-gente-nova-chapa-03 { 
-	width: 72px;
-	height: 72px;
+	width: 131px;
+	height: 115px;
 	position: absolute;
-	top: 620px;
-	left: 310px;
+	top: 672px;
+	left: 37px;
 }
 
 .template.gente-nova.template-04 .item-gente-nova-chapa-03 .image {
-	width: 72px;
-	height: 72px;
-	border-radius: 300px;
-	background: #f94c5c;
+	width: 87px;
+	height: 88px;
 	overflow: hidden;
+	margin-left: 17px;
+	margin-top: 8px;
+	margin-bottom: 35px;
+	border-radius: 10px;
 }
 
-.template.gente-nova.template-04 .item-gente-nova-chapa-03 .image img{
-	width: 72px;
-	height: 72px;
-	border: 0;
-	object-fit: cover;
+.template.gente-nova.template-04 .item-gente-nova-chapa-03 .image img {
+width: 100%;
+height: 100%;
+object-fit: cover;
 }
 
-/* Funcionário 04 */
+.template.gente-nova.template-04 .item-gente-nova-chapa-03 .border-chapa-left  {
+width: 100%;
+height: 100%;
+position: absolute;
+background: url('../images/chapa_small.png');
+background-size: 100% 100%;
+}
+
 .template.gente-nova.template-04 .item-gente-nova-04 { 
-	width: 216px;
-	height: 216px;
+	width: 215px;
+	height: 190px;
 	position: absolute;
-	top: 660px;
-	right: 160px;
+	top: 558px;
+	right: 85px;
 }
+
 
 .template.gente-nova.template-04 .item-gente-nova-04 .image {
-	width: 216px;
-	height: 216px;
-	border-radius: 300px;
-	background: #f94c5c;
+	width: 140px;
+	height: 146px;
 	overflow: hidden;
 	object-fit: cover;
+	margin-top: 14px;
+	margin-left: 28px;
+	border-radius: 15px;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-04 .border-left {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url('../images/funcionario_big.png');
+	background-size: 100% 100%;
 }
 
 .template.gente-nova.template-04 .item-gente-nova-04 .image img{
 	width: 100%;
-	height: 216px;
+	height: 100%;
 	object-fit: cover;
 }
 
 .template.gente-nova.template-04 .item-gente-nova-chapa-04 { 
-	width: 72px;
-	height: 72px;
+	width: 121px;
+	height: 117px;
 	position: absolute;
-	top: 620px;
-	right: 40px;
+	top: 655px;
+	right: 36px;
 }
 
 .template.gente-nova.template-04 .item-gente-nova-chapa-04 .image {
-	width: 72px;
-	height: 72px;
-	border-radius: 300px;
-	background: #f94c5c;
+	width: 87px;
+	height: 88px;
 	overflow: hidden;
+	margin-left: 17px;
+	margin-top: 26px;
+	margin-bottom: 35px;
+	border-radius: 10px;
 }
 
 .template.gente-nova.template-04 .item-gente-nova-chapa-04 .image img{
-	width: 72px;
-	height: 72px;
-	border: 0;
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
+}
+
+.template.gente-nova.template-04 .item-gente-nova-chapa-04 .border-chapa-right  {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url('../images/chapa_big.png');
+	background-size: 100% 100%;
+}
+.template.gente-nova.template-04 .item-gente-nova-chapa span#chapa {
+	margin-left: 50px;
+}
+.template.gente-nova.template-04 .item-gente-nova-chapa-02 span#chapa_02 {
+	margin-left: 55px;
 }

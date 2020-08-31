@@ -146,15 +146,6 @@
 	background-size: 100% 100%;
 }
 
-
-.template.gente-nova.template-03 .item-gente-nova-chapa span#chapa {
-	margin-left: 50px;
-}
-.template.gente-nova.template-03 .item-gente-nova-chapa-02 span#chapa_02 {
-	margin-left: 55px;
-}
-
-
 .template.gente-nova.template-03 .item-gente-nova-03 { 
 	width: 215px;
 	height: 190px;
@@ -218,4 +209,11 @@
 	position: absolute;
 	background: url('../images/chapa_big.png');
 	background-size: 100% 100%;
+}
+
+.template.gente-nova.template-03 .item-gente-nova-chapa span#chapa {
+	margin-left: 50px;
+}
+.template.gente-nova.template-03 .item-gente-nova-chapa-02 span#chapa_02 {
+	margin-left: 55px;
 }
